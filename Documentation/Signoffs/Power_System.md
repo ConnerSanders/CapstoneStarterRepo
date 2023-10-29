@@ -15,7 +15,7 @@ This subsystem's purpose is to allow power supplied from a wall outlet to be use
 | 4   | The system shall be able to power multpile different devices with different rated voltages | Design Constraint |
 | 5   | The system shall be able to 5 VDC | Design Constraint |
 | 6   | The system shall be able to 12 VDC | Design Constraint |
-| 7   | The system shall have no dangerous exposed wires and be grounded | OSHA 1910.304 - 305 and IEC 60950-1 Safety Standards |
+| 7   | The system shall have no dangerous exposed wires and shall be grounded | OSHA 1910.304 - 305 and IEC 60950-1 Safety Standards |
 
 
 
@@ -91,6 +91,9 @@ The gas flow sensor will be powered by 5VDC and will have a power draw of 19 mW.
 I_{Gas Flow Snesor} = P/V = (19mW)/(5V) = 3.8mA
 ~~~
 
+The 12 VDC will be supplied by the Alitov 5050 3528.
+The 5 VDC will be supplied by the Arndt 950-00143. 
+These two supplies will both pull from the same outlet. The inputs of these two supplies will be spliced together in order to be able to be connected to a single wall outlet.
 ### Fulfilling Constraints
 
 
@@ -108,9 +111,9 @@ P = VI
 ### Power
 (How much power is being used)
 
-For the 12 V systems, the Alitove 5050 3528 Power supply will be used. This can support up to 5 A, which sould be more than enough to reliably power the system.
+As mentioned previously, for the 12 V systems, the Alitove 5050 3528 Power supply will be used. This can support up to 5 A, which sould be more than enough to reliably power the system.
 
-For the 5 V systems, the Arndt 950-00143 Power supply will be used. This is a low power device, with a max current rating of 800 mA. As this is only supplying power to sensors. This should be sufficient to reliably power them.
+Again, for the 5 V systems, the Arndt 950-00143 Power supply will be used. This is a low power device, with a max current rating of 800 mA. As this is only supplying power to sensors. This should be sufficient to reliably power them.
 
 
 ### Input
