@@ -13,8 +13,15 @@ This subsystem's purpose is to allow power supplied from a wall outlet to be use
 | 2   | The system shall comply with NFPA 70, in reference to all wiring and power consumption| Design Constraint/ NFPA 70 |
 | 3   | The system shall not have fluctuations in voltage of greater or less than 10 volts compared to the rated voltage                          | Design Constraints |
 | 4   | The system shall be able to power multpile different devices with different rated voltages | Design Constraint |
+| 5   | The system shall be able to 5 VDC | Design Constraint |
+| 6   | The system shall be able to 12 VDC | Design Constraint |
+| 7   | The system shall have no dangerous exposed wires and be grounded | OSHA 1910.304 - 305 and IEC 60950-1 Safety Standards |
+
+
 
 <sup>1</sup> All components will be powered with DC inputs, ensuring the system is more easily buildable, and more consistent between subsystems.
+
+<sup>2</sup> While not necessarily a contraint, it is good practice to be capable of supplying 1.2x more power than is expected to be drawn. This will account for some unexpected spikes in power draw that may otherwise cause a system failure.
 
 | Device          | Voltage |
 | ----------------- | ------------------------ |
@@ -26,9 +33,11 @@ This subsystem's purpose is to allow power supplied from a wall outlet to be use
 
 The above table lists the rated voltages of each device.
 
-<sup>2</sup> Different subsystems require different voltages. This introduces some chall
+<sup>3</sup> Different subsystems require different voltages. This will be accomplished by having 2 separate transformers to step down to appropriate voltages.
 
-<sup>3</sup>  A standard wall outlet will be used to power the device to avoid the issue of nonstandardized outlets needed to be present in the home of the user
+<sup>4</sup>  A typical wall outlet will be used to power the device to avoid the issue of nonstandardized outlets needed to be present in the home of the user.
+
+
 
 
 
@@ -45,21 +54,47 @@ The above table lists the rated voltages of each device.
 
 | DEVICE            | Power |Total Power |
 | ----------------- | ------------------------ | ------------------------ | 
-| Pulse Inverter    | 2.5 W                    |                    | 
+| Pulse Inverter    | Unknown                    |                    | 
 | Water Flow Valve         | 18 W                     |                    | 
 | Water Level Sensor            | 60 mW                    |                    | 
 | Power Sensor            | 1.55 mW                    |                   | 
 | Gas Flow Sensor            | 19 mW                   |                   |
 |            |                  |                   |
 
+Pulse Inverter
+The pulse inverter will be powered by 12 VDC and will have a power draw of 
+~~~math
+I_{Pulse Inverter} = P/V = (XW)/(12V) = XA
+~~~
+
+Water Flow Valve
+The water flow valve will be powered by 12 VDC and will have a power draw of 18 W. This means the current draw is
+~~~math
+I_{Water Flow Valve} = P/V = (18W)/(12V) = 1.5A
+~~~
+
+Water Level Sensor
+The water level sensor will be powered by 12 VDC and will have a power draw of 60 mW. This means the current draw is
+~~~math
+I_{Pulse Inverter} = P/V = (60mW)/(12V) = 5mA
+~~~
+
+Power Sensor
+The power sensor will be powered by 5 VDC and will have a power draw of 1.55 mW. This means the current draw is
+~~~math
+I_{Power Sensor} = P/V = (1.55mW)/(5V) = 310μA
+~~~
+
+Gas Flow Sensor
+The gas flow sensor will be powered by 5VDC and will have a power draw of 19 mW. This means the current draw is
+~~~math
+I_{Gas Flow Snesor} = P/V = (19mW)/(5V) = 3.8mA
+~~~
 
 ### Fulfilling Constraints
 
 
    There will be 2 seperate power systems: one running on 12 V, the other running on 5 V. The wall outlet will be split to 2 distinct transformers that step down to the appropriate voltages.
-
-   To en
-
 
      
 
@@ -71,39 +106,34 @@ P = VI
 
 
 ### Power
-The system will require about 18 Watts of power. This system will utilize a wall wart to supply the DC power required.
+(How much power is being used)
+
+For the 12 V systems, the Alitove 5050 3528 Power supply will be used. This can support up to 5 A, which sould be more than enough to reliably power the system.
+
+For the 5 V systems, the Arndt 950-00143 Power supply will be used. This is a low power device, with a max current rating of 800 mA. As this is only supplying power to sensors. This should be sufficient to reliably power them.
 
 
 ### Input
 
-The input for this subsystem is the 100-240 VAC coming from the wall outlet.
+The input for this subsystem is the 120 VAC coming from the wall outlet.
 
 ### Output
 
-This system will provide the correct power to each subsystem for the project. It will be connected to a power rail and then use a buck converter to step down the voltage provided by the wall wart to match the voltage required for the following subsystems: main processor, input, and error. These three subsystems require 5V DC. The output subsystem requires 12V so it will receive power from a separate wall wart.
+This subsystem will have 2 distinct outputs as described earlier: 12 VDC and 5 VDC. These 2 outputs can be treated as separte circuits for 
+### Relay Coil
 
-The buck converter in use will be the LM2596 [10][3]. It can be set to out voltages from a range of 1.25V - 35V. The maximum output current it can provide is 3A. 
-
-#### Further connections
-
-The end of the wallwart has a plug that will be removed to reveal the two-wire connection. The two wires are going to the power supply rail on a soldered breadboard designed to supply the voltage across the entire system. The breadboard is 2"x4" and will have designated columns for each voltage required. The first column will be for the output and provide 12V DC, the second column will provide 5V DC for the main processor, and input and error will have the last column requiring 10V and 5V DC. They will be connected with the negative wire being grounded and the positive being used to power each subsystem.
-
-## Ripple considerations
-
-#### LM741
-For each device that is powered using the 5 VDC or - 5VDC signal from the buck converter stage the PSRR or SVRR must be analyzed to ensure ripple is minimized. For the LM741 the minimum SVRR is 86 dB [6]. Assuming the input ripple is the maximum value that could be seen from the buck converter (400 mV) the expected output ripple voltage can be calculated using the following equation: $86 = 20log(0.4 V/Vripple)$ where Vripple is the ripple that is seen by the LM741. Solving this equation for Vripple yields a ripple voltage of 20.05 µV, this is a very small ripple voltage and can be considered negligible since the output voltage would only swing up or down by 20.05 µV <sup>6</sup>.
-#### TS472
-For the TS472 the PSSR observed at a supply voltage of 5 V and a bus ripple of 200 mV is at minimum 70 dB at 10 kHz or above [5]. This is the input ripple voltage the manufacturer uses to calculate the gain. Using this ripple voltage we can calculate the expected output ripple using the following equation: $70 = 20log(0.2 V/Vout)$ where Vout is the swing in the output voltage of the TS472, solving yields Vout = 63.24 µV.
-
+There will be a relay coil that is connected to the input of the 12 V transformer. This relay coil will be controlled by the safety subsystem, and will act as an emergency shutoff for the pulse inverter. The relay coil will receive a constant signal that allows the pulse inverter to operate. Should the signal ever not be present, the relay coil will not allow any power into the pulse inverter.
 
 
 ## BOM
 | DEVICE            | Quantity | Price Per Unit | Total Price |
 | ----------------- | -------- | -------------- | ----------- |
-| Chanzon           | 1        | $11.99         | $11.99      |
-| LM2596            | 1        | $5.49          | $5.49       |
-| SchmalzTech Double Sided ENIG Protoboard            | 1        | $4.49          | $4.49       |
+| Alitov 5050 3528           | 1        | $11.99         |       |
+| Arndt            | 1        | $2.65          | $2.65       |
+| Relay Coil            | 1       |          | $4.49       |
 
 ## References
+[1] DC 12V 5A Power Supply Adapter Converter Transformer AC 100-240V input with 5.5x2.5mm DC Output Jack for 5050 3528 LED Strip Module Light, https://www.alitove.net/power-supply-adapter?product_id=65
 
+[2] 5VDC 800mA Unregulated Linear Wall Adapter 2.5x5.5mm Center Positive, https://www.jameco.com/z/950-00143-Jameco-ReliaPro-5VDC-800mA-Unregulated-Linear-Wall-Adapter-2-5x5-5mm-Center-Positive_2231443.html
 
