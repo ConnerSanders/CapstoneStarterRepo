@@ -23,7 +23,7 @@ The goal of the system is to read the sensor values, compute the efficiency of t
 <sup>4</sup> In order for the system to be accessible to the most amount of people the interface needs to be able to be easily understood.
 
 ## Buildable Schematic
-<img src="/Documentation/Images/Controller_System/Buildable_Schematics/Controller_System_Schematic.PNG" width="90%" height="90%">
+<img src="/Documentation/Images/Controller_System/Buildable_Schematic/Controller_System_Schematic.PNG" width="90%" height="90%">
 
 The above image showcases the full buildable schematic of the controller system. The schematic shows the required sensors as well as the way they connect to the other systems.
 
