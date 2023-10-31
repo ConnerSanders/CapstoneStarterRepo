@@ -27,14 +27,25 @@ Halting gas production when there is no flame present ensures that there is no g
 
 
 ## Analysis
+#### UV Sensor
+The UV sensor is connected to 12VDC and ground from the power system. The output of this sensor is connected to a normally open relay. A button is also connected to this relay, so that when you are ready to start OH production, you can do so. The button separates the relay coil from 12VDC, so the coul is energized when the button is pressed. IF the sensor does not see a flame, and the button is not pressed, the circuit between the pulse inverter power and the pulse inverter is broken.
+
+#### Temperature Sensor
+The Temperature sensor separates 12VDC from the power system and a normally closed relay coil. When the sensor feels anything over 100 degrees Celcius, the circuit between the puls inverter power and the pulse inverter is broken.
+
+#### Pressure Sensor
+The pressure sensor separates 12VDC from the power system and a normally closed relay coil. When the pressure across the sensor rises to 15 psi, the circuit between the puls inverter power and the pulse inverter is broken.
+
+#### Emergency Stop
+The Emergency stop button separates 12VDC from the power system and a normally closed relay coil. When pressed, the circuit between the pulse inverter power and the pulse inverter is broken.
 
 
 
 ## BOM
 | Device                                                | Quantity | Price per Unit | Total Cost |
 | ----------------------------------------------------- | -------- | -------------- | ---------- |
-| UV flame detector                                     | 1        | ??             | ??         |
-| Pressure sensor                                       | 1        | ??             | ??         |
-| Temperature sensor                                    | 1        | ??             | ??         |
+| UV flame detector                                     | 1        | $8.13          | $8.13      |
+| Pressure sensor                                       | 1        | $88.02         | ??         |
+| Temperature sensor                                    | 1        | $7.28          | ??         |
 | Emergency stop                                        | 1        | ??             | ??         |
 | Relay                                                 | ??       | ??             | ??         |
