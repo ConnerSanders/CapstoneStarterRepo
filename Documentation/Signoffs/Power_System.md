@@ -61,6 +61,9 @@ The above table lists the rated voltages of each device.
 | Pulse Inverter    | Unknown                    |                    | 
 | Water Flow Valve         | 18 W                     |                    | 
 | Water Level Sensor            | 60 mW                    |                    | 
+| Pressure Sensor            | 96 W                    |                    | 
+| Temperature Sensor          | 50 mW                    |                    | 
+| UV Sensor         |  680 nW                    |                    | 
 | Power Sensor            | 1.55 mW                    |                   | 
 | Gas Flow Sensor            | 19 mW                   |                   |
 |            |                  |                   |
