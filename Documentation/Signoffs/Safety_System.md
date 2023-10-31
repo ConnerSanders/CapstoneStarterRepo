@@ -6,7 +6,7 @@ This system will shut-off power to the pulse inverter if the system becomes unsa
 | No. | Constraints                                                                                   | Origin                               |
 | --- | --------------------------------------------------------------------------------------------- | ------------------------------------ |
 | 1   | Shall contain an emergency-stop button                                                        | NFPA 79                              |
-| 2   | Shall shutoff if pressure and temperature approach ignition conditions of Brown's gas         | Design Constraint                    |
+| 2   | Shall shutoff if pressure and temperature approach ignition conditions of Brown's gas         | Design Constraint                    | 
 | 3   | System monitors must be designed with redundancies                                            | Design Constraint                    |
 | 4   | System shall not produce gas unless there is a flame present                              | Design Constraint
 
