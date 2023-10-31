@@ -1,47 +1,53 @@
 # Water System
 ## Function of the system
-The goal of the system is to implement the process necessary for generating the hydrogen and oxygen gases. The system consists of a pre-made electrolytic cell, a pulse inverter, a rectifier, and permanent magnets. The pulse inverter will be the power source of the system, and the rectifier will be used on the output of the pulse inverter to ensure that the polarity of the input power is consistent. The magnets will be used to boost the system's efficiency.
-
+The goal of this system is to make sure the that the water in the electrolytic cell never drops below 2/3 of the cell capactity. This will be done with a non-contact water level sensor placed 2/3  the height of the cell housing. This ensure that the cell water level stay to the recommended level by the manufacturer of the cell. When the sensor is high than the water control valve needs to be shutoff, so the signal out the sensor will need to be inverted.
 ## Constraints
 | No. | Constraints                                                                                   | Origin            |
 | --- | --------------------------------------------------------------------------------------------- | ----------------- |
-| 1   | The material of the electrolytic cell housing shall not be reactive with Potassium Hydroxide. | Design Constraint |
-| 2   | The material of the electrolytic cell should be transparent or translucent.                   | Design Constraint |
-| 3   | The cell must be large enough to house all the necessary sensors.                             | Design Constraint | **********************
-| 4   | The system shall include a pulse generator and permanent magnets to boost efficiency.         | Design Constraint |
-| 5   | The pulse generator’s output should be rectified.                                             | Design Constraint |
-| n   | "Each subsystem must have at least one constraint arising from standards, ethics, or socioeconomic well being." | Standards, Ethics, Socioeconomic Well-Being | ***************
+| 	| The water in the cell shall automatically refill when below 2/3 the cells capacity .          | Design Constraint |**********************
+| 	| The water level sensor shall be affixed to the outside of the cell.                           | Design Constraint |
+| 	| The water system shall have a hole below the water level					| Design Constraint |
+|	| The water system fittings will use non-corrosive materials for fittings			| Design Constraint |
+| 	| The water system shall prevent backwards flow of water.                                       | Ethical Constraint|
 
 <sup>1</sup>
-The material of the cell not being reactive with Potassium Hydroxide is essential both for functionality and safety, given that Potassium Hydroxide will be part of the solution housed in the cell.
+The electroyltic cell needs to have a certain amount of water at all times to keep efficiency up.
 
 <sup>2</sup>
-This is a preference decided by the team.
-
+This is due to the fact that the cell does not have enough room in the cell to house the sensors.
 <sup>3</sup>
-This is essential for the project's functionality overall. The cell, more specifically, must be large enough to house a pressure sensor and a water level sensor in order to ensure functionality and safety of operation.
-
+The system does not want to introduce another way for the gas to leave the system. By submerging the water inlet for the cell the gas will rise to the top of the cell and not hang in the water inlet tube.
 <sup>4</sup>
-The pulse generator will be the system's power source, and its frequency and amplitude will be manipulated for optimizing efficiency. The magnets will theoretically serve to bias the ions in the solution toward the electrodes in order to increase interaction and boost efficiency.
-
+The system needs to run with out issues as long as possible. The fittings need to be as corrosive resistant as possible to help keep the longevity of the cell.
 <sup>5</sup>
-The rectification of the pulse generator's output, while not essential to the function of the system as it is being designed, is prefered as it makes possible future development more approachable. The direct purpose of the rectification is that it keeps the location of hydrogen and oxygen gas generation seperate so that, in the future, the gases can more easily be isolated from one another.
-
-
-
-
+This is to ensure that the water supply would not get contaminated by what is in the cell.
 ## Buildable Schematic
-
-
-
+<img src="/Documentation/Images/Water_System/Buildable_Schematic/Schematic.PNG" width="90%" height="90%">
 ## Analysis
-
+#### Non-Contact Capacitive Water Level Sensor
+The system needs to detect that the water level inside the cell. Due to the limited space inside the cell, the sensor will be mounted on the outside. 
+#### Electric Accutated Water Control Valve
 
 ## BOM
-| Device | Quantity | Price per Unit | Total Cost |
+| Device | Quantity | Price per Unit ($) | Total Cost ($) |
 | ------ | -------- | -------------- | ---------- |
-| Microcontroller | 1 | ????? |
-| Water Level Sensor | 1 | ????? | ?????? | ?????? |
-| Flowrate Sensor | 1 | ??????? | ???????? |
-| Energy Metering IC ADE9153A | 1 | ???? | ????? |
-| Display???? | 1 | ????? | ????? |
+|Tank Fitting|1|10.23|10.23|
+|Male to Barbed Hose Fitting|3|15.38|46.14|
+|Worm-Drive Clamp|1|10.52|10.52|
+|1/4" Vinyl Hose 25'|2|9.28|18.56|
+|Non-Contact Capacitive Water Level Sensor|2| 9.94|19.88|
+|Electric Brass Solenoid Valve|1|44.95|44.95|
+|
+
+
+
+## References
+
+[1] https://www.mcmaster.com/products/flow-valves/check-valves~/body-material~brass-2/threaded-check-valves-10/pipe-size~3-8/
+[2] https://www.electricsolenoidvalves.com/3-8-12v-dc-electric-brass-solenoid-valve/#description
+[3] https://www.amazon.com/Waterproof-Contact-Liquid-Sensor-Signal/dp/B0B7W9QYRX/ref=sr_1_7_sspa?crid=3KMMPVDKNY1CM&keywords=non+contact+water+level+sensor&qid=1698428863&s=hi&sprefix=non+contact+water%2Ctools%2C121&sr=1-7-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1
+[4] https://www.mcmaster.com/5346K95/
+[5] https://www.mcmaster.com/9151K265/
+[6] https://www.mcmaster.com/1075T23/
+[7] https://www.mcmaster.com/5388K14/
+https://www.lowes.com/pd/EZ-FLO-1-4-in-Inner-Diameter-x-25-ft-Polyethylene-Tubing/1000180497
