@@ -28,8 +28,12 @@ This subsystem's purpose is to allow power supplied from a wall outlet to be use
 | Pulse Inverter (Capacitor Input)     | 12 V                    |
 | Water Flow Valve             | 12 V                   |
 | Water Flow Sensor             | 12 V                    |
+| Pressure Sensor             | 12 V                   |
+| Temperature Sensor |  5 V         |
+| UV Sensor           | 5 V             |
 | Power Sensor            |  5 V                  |
 | Gas Flow Sensor           | 5 V                   |
+
 
 The above table lists the rated voltages of each device.
 
@@ -78,6 +82,25 @@ The water level sensor will be powered by 12 VDC and will have a power draw of 6
 ~~~math
 I_{Pulse Inverter} = P/V = (60mW)/(12V) = 5mA
 ~~~
+
+Pressure Sensor
+The pressure sensor will be powered by 12 VDC and will have a power draw of 96 W. This means the current draw is
+~~~math
+I_{Pulse Inverter} = P/V = (96W)/(12V) = 8A
+~~~
+
+Temperature Sensor
+The temperature sensor will be powered by 5 VDC and will have a power draw of 50 mW. This means the current draw is
+~~~math
+I_{Pulse Inverter} = P/V = (50mW)/(5V) = 10mA
+~~~
+
+UV Sensor
+The water level sensor will be powered by 12 VDC and will have a power draw of 680 nW. This means the current draw is
+~~~math
+I_{Pulse Inverter} = P/V = (680nW)/(12V) = 136nA
+~~~
+
 
 Power Sensor
 The power sensor will be powered by 5 VDC and will have a power draw of 1.55 mW. This means the current draw is
