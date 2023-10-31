@@ -45,7 +45,11 @@ The Emergency stop button separates 12VDC from the power system and a normally c
 | Device                                                | Quantity | Price per Unit | Total Cost |
 | ----------------------------------------------------- | -------- | -------------- | ---------- |
 | UV flame detector                                     | 1        | $8.13          | $8.13      |
-| Pressure sensor                                       | 1        | $88.02         | ??         |
-| Temperature sensor                                    | 1        | $7.28          | ??         |
-| Emergency stop                                        | 1        | ??             | ??         |
-| Relay                                                 | ??       | ??             | ??         |
+| Pressure sensor                                       | 1        | $88.02         | $88.02     |
+| Temperature sensor                                    | 1        | $7.28          | $7.28      |
+| Emergency stop                                        | 1        | $7.99          | $7.99      |
+| Push button                                           | 1        | $1.22          | $1.22      |
+| Relay (NC)                                            | 2        | $8.00          | $16.00     |
+| Relay (NO)                                            | 6        | $4.00          | $24.00     |
+| ----------------------------------------------------- | -------- | -------------- | ---------- |
+| Full System                                           | -------- | -------------- | $152.64    |
