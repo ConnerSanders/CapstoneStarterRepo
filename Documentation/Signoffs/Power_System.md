@@ -91,11 +91,12 @@ The gas flow sensor will be powered by 5VDC and will have a power draw of 19 mW.
 I_{Gas Flow Snesor} = P/V = (19mW)/(5V) = 3.8mA
 ~~~
 
-The 12 VDC will be supplied by the Alitove 5050 3528.
+The 12 VDC will be supplied by the SUPERNIGHT 110~240 VAC to 12 VDC.
 
 The voltage regulation from 12 V to 5 V will be done by the Weewooday Direct Current Converter.
 
 The supply will pull from a standard wall outlet (120 VAC) and will be wired into a 12 VDC power supply. The power supply will then be split into the buck converter circuit (which feeds the safety subsystem(s)), the water control circuit, and the pulse inverter circuit.
+
 ### Fulfilling Constraints
 
 
@@ -132,12 +133,12 @@ There will be a relay coil that is connected to the input of the 12 V transforme
 ## BOM
 | DEVICE            | Quantity | Price Per Unit | Total Price |
 | ----------------- | -------- | -------------- | ----------- |
-| Alitov 5050 3528           | 1        | $11.99         |       |
+| SUPERNIGHT          | 1        | $18.98         |       |
 | Weewooday            | 1        | $2.65          | $2.65       |
 | Relay Coil            | 1       |          | $4.49       |
 
 ## References
-[1] DC 12V 5A Power Supply Adapter Converter Transformer AC 100-240V input with 5.5x2.5mm DC Output Jack for 5050 3528 LED Strip Module Light, https://www.alitove.net/power-supply-adapter?product_id=65
+[1] SUPERNIGHT 12V 30A Switching Power Supply, 110-240 Volt AC to DC 360W Universal Regulated Switching Transformer Adapter Driver for 3D Printer, CCTV, Radio, LED Strip Lights,Computer Project, https://www.amazon.com/SUPERNIGHT-Switching-Universal-Regulated-Transformer/dp/B01LATMSGS/ref=sr_1_9?keywords=12v+power+supply&qid=1698784239&sr=8-9
 
 [2] 12V to 5V DC Converter Car Power Voltage, Waterproof DC 6.3-22V 12V Step Down to DC 5V 3A 15W Voltage Regulator Buck Converter Power Supply Step-Down Module Compatible with Vehicle Car Truck Volt, https://www.amazon.com/Converter-Voltage-Waterproof-Regulator-Step-Down/dp/B07Y2V1F8V/ref=sr_1_3?keywords=12v%2Bdc%2Bto%2B5v%2Bdc%2Bconverter&qid=1698778927&sr=8-3&th=1
 
