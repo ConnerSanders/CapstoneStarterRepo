@@ -11,11 +11,11 @@ This subsystem's purpose is to allow power supplied from a wall outlet to be use
 | --- | ----------------------------------------------------------------------------------- | ----------------- |
 | 1   | The system shall convert wall AC Voltage to DC voltage | Design Constraint |
 | 2   | The system shall comply with NFPA 70, in reference to all wiring and power consumption| Design Constraint/ NFPA 70 |
-| 3   | The system shall not have fluctuations in voltage of greater or less than 10 volts compared to the rated voltage                          | Design Constraints |
+| 3   | The subsystems shall not have fluctuations in voltage of greater or less than 10 volts compared to the rated voltage                          | Design Constraints |
 | 4   | The system shall be able to power multpile different devices with different rated voltages | Design Constraint |
 | 5   | The system shall be able to 5 VDC | Design Constraint |
 | 6   | The system shall be able to 12 VDC | Design Constraint |
-| 7   | The system shall have no dangerous exposed wires and shall be grounded | OSHA 1910.304 - 305 and IEC 60950-1 Safety Standards |
+| 7   | The system shall have no dangerous exposed wires and shall be grounded as needed | OSHA 1910.304 - 305 and IEC 60950-1 Safety Standards |
 
 
 
@@ -33,7 +33,7 @@ This subsystem's purpose is to allow power supplied from a wall outlet to be use
 
 The above table lists the rated voltages of each device.
 
-<sup>3</sup> Different subsystems require different voltages. This will be accomplished by having 2 separate transformers to step down to appropriate voltages.
+<sup>3</sup> Different subsystems require different voltages. This will be accomplished by having 1 power supply supplying 12 VDC that is stepped down to 5 VDC using a buck converter.
 
 <sup>4</sup>  A typical wall outlet will be used to power the device to avoid the issue of nonstandardized outlets needed to be present in the home of the user.
 
@@ -48,7 +48,7 @@ The above table lists the rated voltages of each device.
 *Figure 1. Power Subsystem buildable schematic.*
 
 
-The two transformers will be taken apart and wired together manually to allow for the use of a single outlet, rather than using two seperate outlets.
+
 
 ## Analysis
 
@@ -92,12 +92,14 @@ I_{Gas Flow Snesor} = P/V = (19mW)/(5V) = 3.8mA
 ~~~
 
 The 12 VDC will be supplied by the Alitove 5050 3528.
-The 5 VDC will be supplied by the Arndt 950-00143. 
-These two supplies will both pull from the same outlet. The inputs of these two supplies will be spliced together in order to be able to be connected to a single wall outlet.
+
+The voltage regulation from 12 V to 5 V will be done by the Weewooday Direct Current Converter.
+
+The supply will pull from a standard wall outlet (120 VAC) and will be wired into a 12 VDC power supply. The power supply will then be split into the buck converter circuit (which feeds the safety subsystem(s)), the water control circuit, and the pulse inverter circuit.
 ### Fulfilling Constraints
 
 
-   There will be 2 seperate power systems: one running on 12 V, the other running on 5 V. The wall outlet will be split to 2 distinct transformers that step down to the appropriate voltages.
+
 
      
 
@@ -121,7 +123,7 @@ The input for this subsystem is the 120 VAC coming from the wall outlet.
 
 ### Output
 
-This subsystem will have 2 distinct outputs as described earlier: 12 VDC and 5 VDC. These 2 outputs can be treated as separte circuits for 
+
 ### Relay Coil
 
 There will be a relay coil that is connected to the input of the 12 V transformer. This relay coil will be controlled by the safety subsystem, and will act as an emergency shutoff for the pulse inverter. The relay coil will receive a constant signal that allows the pulse inverter to operate. Should the signal ever not be present, the relay coil will not allow any power into the pulse inverter.
@@ -131,11 +133,11 @@ There will be a relay coil that is connected to the input of the 12 V transforme
 | DEVICE            | Quantity | Price Per Unit | Total Price |
 | ----------------- | -------- | -------------- | ----------- |
 | Alitov 5050 3528           | 1        | $11.99         |       |
-| Arndt            | 1        | $2.65          | $2.65       |
+| Weewooday            | 1        | $2.65          | $2.65       |
 | Relay Coil            | 1       |          | $4.49       |
 
 ## References
 [1] DC 12V 5A Power Supply Adapter Converter Transformer AC 100-240V input with 5.5x2.5mm DC Output Jack for 5050 3528 LED Strip Module Light, https://www.alitove.net/power-supply-adapter?product_id=65
 
-[2] 5VDC 800mA Unregulated Linear Wall Adapter 2.5x5.5mm Center Positive, https://www.jameco.com/z/950-00143-Jameco-ReliaPro-5VDC-800mA-Unregulated-Linear-Wall-Adapter-2-5x5-5mm-Center-Positive_2231443.html
+[2] 12V to 5V DC Converter Car Power Voltage, Waterproof DC 6.3-22V 12V Step Down to DC 5V 3A 15W Voltage Regulator Buck Converter Power Supply Step-Down Module Compatible with Vehicle Car Truck Volt, https://www.amazon.com/Converter-Voltage-Waterproof-Regulator-Step-Down/dp/B07Y2V1F8V/ref=sr_1_3?keywords=12v%2Bdc%2Bto%2B5v%2Bdc%2Bconverter&qid=1698778927&sr=8-3&th=1
 
