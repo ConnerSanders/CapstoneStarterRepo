@@ -48,7 +48,7 @@ The above table lists the rated voltages of each device.
 *Figure 1. Power Subsystem buildable schematic.*
 
 
-
+The two transformers will be taken apart and wired together manually to allow for the use of a single outlet, rather than using two seperate outlets.
 
 ## Analysis
 
@@ -91,7 +91,7 @@ The gas flow sensor will be powered by 5VDC and will have a power draw of 19 mW.
 I_{Gas Flow Snesor} = P/V = (19mW)/(5V) = 3.8mA
 ~~~
 
-The 12 VDC will be supplied by the Alitov 5050 3528.
+The 12 VDC will be supplied by the Alitove 5050 3528.
 The 5 VDC will be supplied by the Arndt 950-00143. 
 These two supplies will both pull from the same outlet. The inputs of these two supplies will be spliced together in order to be able to be connected to a single wall outlet.
 ### Fulfilling Constraints
@@ -105,7 +105,6 @@ These two supplies will both pull from the same outlet. The inputs of these two 
 ~~~math
 P = VI
 ~~~
-
 
 
 ### Power
