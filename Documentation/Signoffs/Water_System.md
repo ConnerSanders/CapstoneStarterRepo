@@ -34,7 +34,7 @@ This is to ensure that the water supply would not get contaminated by what is in
 
 ### Non-Contact Capacitive Water Level Sensor
 
-The sensor uses its own capacitance and parasitic capacitance of the water to determent when the water level has reached a fixed point in front of the sensor. Due to the limited space inside the cell, the sensor will be mounted on the outside. When the sensor goes high when the water level is at the 2/3 mark of the cell. This means the signal needs to be inverted when controlling the solenoid of the control valve. When the water level is high the sensor will make the gate voltage the same as the source voltage keep the PFET transistor close. When the sensor is low, the gate will be lower than the source making the PFET transistor open and allowing water to fill up. When the transistor goes from the on to off state the diode allows current to flow back in to the soleniod and disspate
+The sensor uses its own capacitance and parasitic capacitance of the water to determent when the water level has reached a fixed point in front of the sensor. The sensor will be mounted on the outside. When the sensor goes high when the water level is at the 2/3 mark of the cell. This means the signal needs to be inverted when controlling the solenoid of the control valve. When the water level is high the sensor will make the gate voltage the same as the source voltage keep the PFET transistor close. When the sensor is low, the gate will be lower than the source making the PFET transistor open and allowing water to fill up. When the transistor goes from the on to off state the diode allows current to flow back in to the soleniod and disspate
 
 #### Electrically Accuated Control Valve
 
