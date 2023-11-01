@@ -47,11 +47,11 @@ The above table lists the rated voltages of each device.
 
 ## Buildable schematic 
 
-
+<img src = "/Documentation/Images/Power_System/PowerSystemCapston.png" width = "100%" height = "100%">
 
 *Figure 1. Power Subsystem buildable schematic.*
 
-
+<sup>5</sup>  The relays shown connected to the pulse inverter have the labels "NO" and "NC." "NO" stands for "Normally Open." "NC" stands for "Normally Closed."
 
 
 ## Analysis
@@ -69,36 +69,42 @@ The above table lists the rated voltages of each device.
 
 
 Pulse Inverter
-The pulse inverter will be powered by 12 VDC and will have a power draw of 
+
+The pulse inverter will be powered by 12 VDC and will have an average power draw of X W. This means the average current draw is
 ~~~math
 I_{Pulse Inverter} = P/V = (XW)/(12V) = XA
 ~~~
 
 Water Flow Valve
+
 The water flow valve will be powered by 12 VDC and will have a power draw of 18 W. This means the current draw is
 ~~~math
 I_{Water Flow Valve} = P/V = (18W)/(12V) = 1.5A
 ~~~
 
 Water Level Sensor
+
 The water level sensor will be powered by 12 VDC and will have a power draw of 60 mW. This means the current draw is
 ~~~math
 I_{Pulse Inverter} = P/V = (60mW)/(12V) = 5mA
 ~~~
 
 Pressure Sensor
+
 The pressure sensor will be powered by 12 VDC and will have a power draw of 96 W. This means the current draw is
 ~~~math
 I_{Pulse Inverter} = P/V = (96W)/(12V) = 8A
 ~~~
 
 Temperature Sensor
+
 The temperature sensor will be powered by 5 VDC and will have a power draw of 50 mW. This means the current draw is
 ~~~math
 I_{Pulse Inverter} = P/V = (50mW)/(5V) = 10mA
 ~~~
 
 UV Sensor
+
 The water level sensor will be powered by 12 VDC and will have a power draw of 680 nW. This means the current draw is
 ~~~math
 I_{Pulse Inverter} = P/V = (680nW)/(12V) = 136nA
@@ -106,12 +112,14 @@ I_{Pulse Inverter} = P/V = (680nW)/(12V) = 136nA
 
 
 Power Sensor
+
 The power sensor will be powered by 5 VDC and will have a power draw of 1.55 mW. This means the current draw is
 ~~~math
 I_{Power Sensor} = P/V = (1.55mW)/(5V) = 310μA
 ~~~
 
 Gas Flow Sensor
+
 The gas flow sensor will be powered by 5VDC and will have a power draw of 19 mW. This means the current draw is
 ~~~math
 I_{Gas Flow Snesor} = P/V = (19mW)/(5V) = 3.8mA
@@ -132,12 +140,10 @@ P = VI
 ~~~
 
 
-### Power
-(How much power is being used)
+### Power Supply
 
-As mentioned previously, for the 12 V systems, the Alitove 5050 3528 Power supply will be used. This can support up to 5 A, which sould be more than enough to reliably power the system.
 
-Again, for the 5 V systems, the Arndt 950-00143 Power supply will be used. This is a low power device, with a max current rating of 800 mA. As this is only supplying power to sensors. This should be sufficient to reliably power them.
+As mentioned previously, the SUPERNIGHT power supply will be used. This can support up to 30 A, which sould be more than enough to reliably power the entire system.
 
 
 ### Input
@@ -147,6 +153,7 @@ The input for this subsystem is the 120 VAC coming from the wall outlet.
 ### Output
 
 There are two outputs for the system. The first output the one from the power supply, which is the 12 VDC. The second output is the one from the buck converter, which is the 5 VDC.
+
 ### Relay Coil
 
 There will be a total of four relay coils. Three of the relays will be normally closed, and one will be normally open. These will connect to the various safety devices, all controlling the input to the pulse inverter. The relays will be connected to the pulse inverter because if they are ever open, then there is likely some sort of error or malfunction. This will mean that the pulse inverter is shut off, ensuring that no more gas is generated.
