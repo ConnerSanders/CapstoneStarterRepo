@@ -150,18 +150,19 @@ The input for this subsystem is the 120 VAC coming from the wall outlet.
 
 ### Output
 
-
+There are two outputs for the system. The first output the one from the power supply, which is the 12 VDC. The second output is the one from the buck converter, which is the 5 VDC.
 ### Relay Coil
 
-There will be a relay coil that is connected to the input of the 12 V transformer. This relay coil will be controlled by the safety subsystem, and will act as an emergency shutoff for the pulse inverter. The relay coil will receive a constant signal that allows the pulse inverter to operate. Should the signal ever not be present, the relay coil will not allow any power into the pulse inverter.
+There will be a total of four relay coils. Three of the relays will be normally closed, and one will be normally open. These will connect to the various safety devices, all controlling the input to the pulse inverter. The relays will be connected to the pulse inverter because if they are ever open, then there is likely some sort of error or malfunction. This will mean that the pulse inverter is shut off, ensuring that no more gas is generated.
 
 
 ## BOM
 | DEVICE            | Quantity | Price Per Unit | Total Price |
 | ----------------- | -------- | -------------- | ----------- |
 | SUPERNIGHT          | 1        | $18.98         |       |
-| Weewooday            | 1        | $2.65          | $2.65       |
-| Relay Coil            | 1       |          | $4.49       |
+| Weewooday            | 1        | $2.65          |        |
+| Relay Coil Normal CLosed           | 3       |          |        |
+| Relay Coil Normal Open           | 1       |          |        |
 
 ## References
 [1] SUPERNIGHT 12V 30A Switching Power Supply, 110-240 Volt AC to DC 360W Universal Regulated Switching Transformer Adapter Driver for 3D Printer, CCTV, Radio, LED Strip Lights,Computer Project, https://www.amazon.com/SUPERNIGHT-Switching-Universal-Regulated-Transformer/dp/B01LATMSGS/ref=sr_1_9?keywords=12v+power+supply&qid=1698784239&sr=8-9
