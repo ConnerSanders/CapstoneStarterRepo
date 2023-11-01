@@ -78,11 +78,11 @@ Install the gas arrestor in the desired location: Place the gas arrestor in a su
 
 ## References
 
-[1] https://www.mcmaster.com/products/flow-valves/check-valves~/body-material~brass-2/threaded-check-valves-10/pipe-size~3-8/
-[2] https://www.electricsolenoidvalves.com/3-8-12v-dc-electric-brass-solenoid-valve/#description
-[3][ https://www.amazon.com/Waterproof-Contact-Liquid-Sensor-Signal/dp/B0B7W9QYRX/ref=sr_1_7_sspa?crid=3KMMPVDKNY1CM&keywords=non+contact+water+level+sensor&qid=1698428863&s=hi&sprefix=non+contact+water%2Ctools%2C121&sr=1-7-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1](https://www.amazon.com/dp/B074PVF341/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B074PVF341&pd_rd_w=LUR56&content-id=amzn1.sym.f734d1a2-0bf9-4a26-ad34-2e1b969a5a75&pf_rd_p=f734d1a2-0bf9-4a26-ad34-2e1b969a5a75&pf_rd_r=7XAKDG93N9RKYFVEN5EM&pd_rd_wg=s2X7A&pd_rd_r=6a5d492e-b856-4e6f-89e1-cc650a4c9141&s=hi&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw)https://www.amazon.com/dp/B074PVF341/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B074PVF341&pd_rd_w=LUR56&content-id=amzn1.sym.f734d1a2-0bf9-4a26-ad34-2e1b969a5a75&pf_rd_p=f734d1a2-0bf9-4a26-ad34-2e1b969a5a75&pf_rd_r=7XAKDG93N9RKYFVEN5EM&pd_rd_wg=s2X7A&pd_rd_r=6a5d492e-b856-4e6f-89e1-cc650a4c9141&s=hi&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw
-[4] https://www.mcmaster.com/5346K95/
-[5] https://www.mcmaster.com/9151K265/
-[6] https://www.mcmaster.com/1075T23/
-[7] https://www.mcmaster.com/5388K14/
-https://www.lowes.com/pd/EZ-FLO-1-4-in-Inner-Diameter-x-25-ft-Polyethylene-Tubing/1000180497
+[1] https://www.energy.gov/eere/fuelcells/hydrogen-production-electrolysis
+[2] https://www.sciencedirect.com/topics/engineering/power-to-gas-system
+[3] https://www.accelerazero.com/news/what-is-an-electrolyzer-and-what-is-it-used-for
+[4] https://www.amazon.com/Gas-Tube-Arrestors/b?ie=UTF8&node=306525011
+[5] https://www.sciencemadness.org/talk/viewthread.php?tid=14167
+[6] https://hackaday.com/2013/10/11/diy-hho-mini-torch/
+[7] https://sciencing.com/make-hydrogen-torch-6456097.html
+
