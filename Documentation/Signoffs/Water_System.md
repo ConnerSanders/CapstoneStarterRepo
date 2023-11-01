@@ -40,7 +40,7 @@ The sensor uses its own capacitance and parasitic capacitance of the water to de
 
 <img src="/Documentation/Images/Water_System/Conceptual/control_valve.png" width="90%" height="%90">
 
-As shown in the figure above, the control valve will have several fittings to allow for hose to be connected from various parts. The inlet of the valve has is a barbed 1/4' to 3/8" NPT Male fitting to than go to the check valve. The check valve will  ensure that the system water does contaminate the city water supply. The control valve outlet than goes to the same fitting as the inlet. This will allow for cheap 1/4 vinyl tubing to be bought in bulk, so is no need to run hard plumbing to fill the system up.
+As shown in the figure above, the control valve will have several fittings to allow for hose to be connected from various parts of the whole system. The inlet of the valve has is a barbed 1/4" to 3/8" NPT Male fitting to than go to the check valve. The check valve will ensure that the system water does contaminate the city water supply. The control valve outlet than goes to the same fitting as the inlet. This will allow for cheap 1/4 vinyl tubing to be bought in bulk, so there is no need to run hard plumbing to fill the system up. The connection to the 
 
 ## BOM
 | Device | Quantity | Price per Unit ($) | Total Cost ($) |
