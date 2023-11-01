@@ -1,30 +1,25 @@
-# Water System
+# Gas System
 ## Function of the system
-The goal of this system is to make sure the that the water in the electrolytic cell never drops below 2/3 of the cell capactity. This will be done with a non-contact water level sensor placed 2/3  the height of the cell housing. This ensure that the cell water level stay to the recommended level by the manufacturer of the cell. When the sensor is high than the water control valve needs to be shutoff, so the signal out the sensor will need to be inverted.
+The gas system plays an essential role in facilitating the electrolysis process, particularly in the context of collecting and handling the gases produced during electrolysis. This will be done with two arrestors and a torch to create a flame.
 
 ## Constraints
 | No. | Constraints                                                                                   | Origin            |
 | --- | --------------------------------------------------------------------------------------------- | ----------------- |
-| 1| The water in the cell shall automatically refill when below 2/3 the cells capacity .          | Design Constraint |**********************
-| 2| The water level sensor shall be affixed to the outside of the cell.                           | Design Constraint |
-| 3| The water system shall have a hole below the water level					| Design Constraint |
-|	4| The water system fittings will use non-corrosive materials for fittings			| Design Constraint |
-| 5| The water system shall prevent backwards flow of water.                                       | Ethical Constraint|
+| 1| The presence of corrosive gases or electrolytes in the system shall be avoid.          | Design Constraint |**********************
+| 2| The controlling and managing of the pressure of gases shall be used within the system.                           | Design Constraint |
+| 3| The temperature shall be monitored in order to make sure the gas temperature is not effected.					| Design Constraint |
+|	4| The gas system shall be designed to handle the expected gas production capacity.		| Design Constraint |
+| 5| Maintenance and Monitoring shall be constant in the gas system to prevent unexpected breakdowns.                                      | Ethical Constraint|
 
 <sup>1</sup>
-The electroyltic cell needs to have a certain amount of water at all times to keep efficiency up.
+The gas system shall facilitate the safe handling and storage of the gases produced during electrolysis.
 
 <sup>2</sup>
-This is due to the fact that the cell does not have enough room in the cell to house the sensors.
+The gas system shall contribute to the overall control and optimization of the electrolysis process.
 
 <sup>3</sup>
-The system does not want to introduce another way for the gas to leave the system. By submerging the water inlet for the cell the gas will rise to the top of the cell and not hang in the water inlet tube.
+The gas system is shall be equipped with components that aid in the separation and purification of the gases.
 
-<sup>4</sup>
-The system needs to run with out issues as long as possible. The fittings need to be as corrosive resistant as possible to help keep the longevity of the cell.
-
-<sup>5</sup>
-This is to ensure that the water supply would not get contaminated by what is in the cell.
 
 ## Buildable Schematic
 
@@ -32,15 +27,41 @@ This is to ensure that the water supply would not get contaminated by what is in
 
 ## Analysis
 
-#### Non-Contact Capacitive Water Level Sensor
+#### Gas Arrestor
 
-The sensor uses its own capacitance and parasitic capacitance of the water to determent when the water level has reached a fixed point in front of the sensor. The sensor will be mounted on the outside. When the sensor goes high when the water level is at the 2/3 mark of the cell. This means the signal needs to be inverted when controlling the solenoid of the control valve. When the water level is high the sensor will make the gate voltage the same as the source voltage keep the PFET transistor close. When the sensor is low, the gate will be lower than the source making the PFET transistor open and allowing water to fill up. When the transistor goes from the on to off state the diode allows current to flow back in to the soleniod and disspate
+In an electrolysis system, a gas arrestor, or gas trap, is a device used to capture and separate unwanted or hazardous gases produced during the electrolysis process. These gases may include volatile byproducts, impurities, or any potentially dangerous gases that need to be removed or trapped before they can escape into the surrounding environment. The gas arrestor works through a series of mechanisms to ensure the safe and efficient operation of the electrolysis system.
 
-#### Electrically Accuated Control Valve
+#### Electrolysis Flame Torch
 
 <img src="/Documentation/Images/Water_System/Conceptual/control_valve.png" width="90%" height="%90">
 
-As shown in the figure above, the control valve will have several fittings to allow for hose to be connected from various parts of the whole system. The inlet of the valve has is a barbed 1/4" to 3/8" NPT Male fitting to than go to the check valve. The check valve will ensure that the system water does contaminate the city water supply. The control valve outlet than goes to the same fitting as the inlet. This will allow for cheap 1/4 vinyl tubing to be bought in bulk, so there is no need to run hard plumbing to fill the system up. The connection to the 
+In an electrolysis system, a flame torch can be used for various purposes, depending on the specific requirements of the process. In an electrolysis system, a flame torch can be used for various purposes, depending on the specific requirements of the process.
+
+##INSTRUCTIONS
+Materials Needed:
+
+Transparent or translucent plastic or glass container with a lid
+Tubing (preferably made of a material resistant to the gas being handled, such as PVC or rubber)
+Silicone sealant or epoxy glue
+Gas outlet valve
+Gas inlet valve
+Activated carbon or absorbent material
+Safety gloves and goggles
+Steps to Make a Gas Arrestor:
+
+Select a suitable container: Choose a transparent or translucent container that is large enough to hold the anticipated gas volume. Ensure that it has a tight-sealing lid that can be securely fastened.
+
+Install the gas inlet and outlet valves: Drill holes in the lid of the container and attach the gas inlet and outlet valves securely using silicone sealant or epoxy glue. Make sure the valves are airtight to prevent any gas leakage.
+
+Connect the tubing: Attach the tubing to the gas inlet valve and ensure it is securely fastened. The other end of the tubing should be placed at the bottom of the container to allow the gas to pass through the absorbent material.
+
+Insert the absorbent material: Fill the bottom of the container with activated carbon or any suitable absorbent material. This will help trap and filter out any impurities or unwanted gases that pass through the system.
+
+Secure the lid: Seal the container with the lid and ensure it is tightly closed to prevent any gas from escaping. Use additional silicone sealant or epoxy glue if necessary to ensure a secure seal.
+
+Test for leaks: Before use, conduct a thorough leak test to ensure that the gas arrestor is airtight and that there are no potential leaks in the system. This step is crucial to prevent any hazardous situations during operation.
+
+Install the gas arrestor in the desired location: Place the gas arrestor in a suitable location where it can effectively trap and handle the gases produced during the electrolysis process.
 
 ## BOM
 | Device | Quantity | Price per Unit ($) | Total Cost ($) |
