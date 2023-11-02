@@ -82,4 +82,5 @@ Install the gas arrestor in the desired location: Place the gas arrestor in a su
 [5] https://www.sciencemadness.org/talk/viewthread.php?tid=14167
 [6] https://hackaday.com/2013/10/11/diy-hho-mini-torch/
 [7] https://sciencing.com/make-hydrogen-torch-6456097.html
+[8] https://www.homedepot.com/p/Flame-King-Searer-Torch-Attachment-Tip-for-Propane-and-Butane-Torch-YSN-SEARER-01/315298340?source=shoppingads&locale=en-US&srsltid=AfmBOoqS5IQoOExq7OieGMk5sEB-85Fq8IU_wa-eIx0aiuFdsEuUoAaRpMU
 
