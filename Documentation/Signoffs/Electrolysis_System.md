@@ -49,7 +49,7 @@ The material of the cell to be ordered is appropriate as it is not reactive with
 The pulse inverter to be used is sufficient as it is made to function as an AC source running at 250 Hz (500 Hz after rectification). The TRYMAG magnets to be used as they are small and therefore easily manipulable. The magnets coming in a pack of 150 ensures that there will be plenty and that magnets will always be available when replacement is necessary. Both the pulse inverter and the magnets are not extremely confined with stringent specifications as the optimization they contribute (and their traits which boost it) are not yet known.
 
 ### Rectification
-The rectifier selected is appropriate for the system as its maximum repetitive peak voltage is 1000 V and the average rectified forward current is 45 A. These limits are high enough that the system can function without exceeding them.
+The rectifier selected is appropriate for the system as its maximum repetitive peak voltage is 1000 V and the average rectified forward current is 50 A. These limits are high enough that the system can function without exceeding them. The rectifiers chosen are also convenient due to them having screw holes which make them easy to mount.
 
 ### Output Capacitor
 
@@ -61,10 +61,10 @@ The rectifier selected is appropriate for the system as its maximum repetitive p
 | Electrolysis Water Machine with Spray-Gun             | 1        | $93.99         | $83.60     |
 | TRYMAG Small Magnets 150Pcs, 12x2mm Neodymium Magnets | 1        | $16.19         | $16.19     |
 | Pulse Inverter                                        | 1        | NA             | NA         |
-| STMicroelectronics PB5010-E3/45 Bride Rectifier       | 3        | $3.85          | $11.55     |
+| KBPC5010 Bridge Rectifier                             | 5        | $1.80          | $8.99      |
 | Total                                                 |          |                | NA         |
 
 ## References
 Electrolysis Water Machine: https://www.ebay.com/itm/285135769861?chn=ps&mkevt=1&mkcid=28&srsltid=AfmBOorJrA9qSJqiSfL-STEVVm67HEf99sTU05votISELXoC7w6v8320vsI
 TRYMAG Small Magnets: https://www.amazon.com/TRYMAG-Different-Neodymium-Refrigerator-Whiteboard/dp/B0CHVPD4K8/ref=sr_1_4?keywords=Neodymium%2BMagnets%2BSmall&qid=1698257546&sr=8-4&th=1
-STMicroelectronics PB5010-E3/45 Bride Rectifier: https://www.mouser.com/ProductDetail/Vishay-General-Semiconductor/PB5010-E3-45?qs=oGkaSCw6xsr9jWW35CHCiw%3D%3D
+Bridgold 5pcs KBPC5010 Bridge Rectifier: https://www.amazon.com/Bridgold-KBPC5010-Rectifier-Electronic-Silicon/dp/B07MQ65HLB/ref=sr_1_3?keywords=50+amp+bridge+rectifier&qid=1698784358&sr=8-3
