@@ -21,7 +21,7 @@ Failure of the safety system can be minimized by creating redundancies in the sy
 
 <sup>4</sup>
 Halting gas production when there is no flame present ensures that there is no gas lingering in the system. This eleminates any hazard when the machine is not being used.
-
+ 
 ## Buildable Schematic
 <img src="/Documentation/Images/SafetySchematic/ConnerSanders_Safety_Schematic.JPG" width="60%" height="60%">
 
