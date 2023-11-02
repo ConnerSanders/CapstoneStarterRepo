@@ -47,7 +47,7 @@ The above table lists the rated voltages of each device.
 
 ## Buildable schematic 
 
-<img src = "/Documentation/Images/Power_System/PowerSystemCapston.png" width = "100%" height = "100%">
+<img src = "/Documentation/Images/Power_System/PowerSystemCapstone.png" width = "100%" height = "100%">
 
 *Figure 1. Power Subsystem buildable schematic.*
 
@@ -58,7 +58,7 @@ The above table lists the rated voltages of each device.
 
 | DEVICE            | Power |Total Power |
 | ----------------- | ------------------------ | ------------------------ | 
-| Pulse Inverter    | Unknown                    |                    | 
+| Pulse Inverter    | 50 W                  |                    | 
 | Water Flow Valve         | 18 W                     |                    | 
 | Water Level Sensor            | 60 mW                    |                    | 
 | Pressure Sensor            | 96 W                    |                    | 
@@ -66,13 +66,15 @@ The above table lists the rated voltages of each device.
 | UV Sensor         |  680 nW                    |                    | 
 | Power Sensor            | 1.55 mW                    |                   | 
 | Gas Flow Sensor            | 19 mW                   |                   |
+|             |                    | 164 W                  |
+
 
 
 Pulse Inverter
 
 The pulse inverter will be powered by 12 VDC and will have an average power draw of X W. This means the average current draw is
 ~~~math
-I_{Pulse Inverter} = P/V = (XW)/(12V) = XA
+I_{Pulse Inverter} = P/V = (50W)/(12V) = 4.167A
 ~~~
 
 Water Flow Valve
@@ -164,17 +166,13 @@ There will be a total of four relay coils. Three of the relays will be normally 
 | ----------------- | -------- | -------------- | ----------- |
 | SUPERNIGHT          | 1        | $18.98         | $18.98      |
 | Weewooday            | 1        | $14.99          | $14.99        |
-| Relay Coil Normal Closed           | 3       | $8.00         | $24.00       |
-| Relay Coil Normal Open           | 1       | $4.00         | $4.00       |
+
 
 ## References
 [1] SUPERNIGHT 12V 30A Switching Power Supply, 110-240 Volt AC to DC 360W Universal Regulated Switching Transformer Adapter Driver for 3D Printer, CCTV, Radio, LED Strip Lights,Computer Project, https://www.amazon.com/SUPERNIGHT-Switching-Universal-Regulated-Transformer/dp/B01LATMSGS/ref=sr_1_9?keywords=12v+power+supply&qid=1698784239&sr=8-9
 
 [2] 12V to 5V DC Converter Car Power Voltage, Waterproof DC 6.3-22V 12V Step Down to DC 5V 3A 15W Voltage Regulator Buck Converter Power Supply Step-Down Module Compatible with Vehicle Car Truck Volt, https://www.amazon.com/Converter-Voltage-Waterproof-Regulator-Step-Down/dp/B07Y2V1F8V/ref=sr_1_3?keywords=12v%2Bdc%2Bto%2B5v%2Bdc%2Bconverter&qid=1698778927&sr=8-3&th=1
 
-[3] R57-2D.5-12D (Normally Closed), https://www.digikey.com/en/products/detail/nte-electronics,-inc/R57-2D.5-12D/11650875?utm_adgroup=General&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Zombie%20SKUs&utm_term&utm_content=General&utm_id=go_cmp-17815035045_adg-_ad-__dev-c_ext-_prd-11650875_sig-Cj0KCQjwy4KqBhD0ARIsAEbCt6hA4W19sTK9kpRHRengfUcy5puvqutEbiyUXNNhJxkdeXUodGPlxpUaAjVhEALw_wcB&gad_source=1
-
-[4] R57-1D.5-12D (Normally Open), https://www.digikey.com/en/products/detail/nte-electronics,-inc/R57-1D.5-12D/11650823?utm_adgroup&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term&utm_content&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-11650823_sig-Cj0KCQjwqP2pBhDMARIsAJQ0CzpvPIxXzqyNg_t1kvsZ9sSkQLpKDTvkh5JGm9ZpB13k9AO8iK48mJIaAu66EALw_wcB&gad_source=1
 
 
 
