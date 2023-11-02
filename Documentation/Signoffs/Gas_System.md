@@ -18,7 +18,7 @@ The gas system shall facilitate the safe handling and storage of the gases produ
 The gas system shall contribute to the overall control and optimization of the electrolysis process.
 
 <sup>3</sup>
-The gas system is shall be equipped with components that aid in the separation and purification of the gases.
+The gas system shall be equipped with components that aid in the separation and purification of the gases.
 
 
 ## Buildable Schematic
@@ -33,11 +33,9 @@ In an electrolysis system, a gas arrestor, or gas trap, is a device used to capt
 
 #### Electrolysis Flame Torch
 
-<img src="/Documentation/Images/Water_System/Conceptual/control_valve.png" width="90%" height="%90">
+The Flame King Searer Attachment Tip will be attached to the electrolysis system. In an electrolysis system, a flame torch can be used for various purposes, depending on the specific requirements of the process. In an electrolysis system, a flame torch can be used for various purposes, depending on the specific requirements of the process.
 
-In an electrolysis system, a flame torch can be used for various purposes, depending on the specific requirements of the process. In an electrolysis system, a flame torch can be used for various purposes, depending on the specific requirements of the process.
-
-##INSTRUCTIONS
+#### Construction
 Materials Needed:
 
 Transparent or translucent plastic or glass container with a lid
@@ -66,12 +64,11 @@ Install the gas arrestor in the desired location: Place the gas arrestor in a su
 ## BOM
 | Device | Quantity | Price per Unit ($) | Total Cost ($) |
 | ------ | -------- | -------------- | ---------- |
-|Tank Fitting|1|10.23|10.23|
-|Male to Barbed Hose Fitting|3|15.38|46.14|
-|Worm-Drive Clamp|1|10.52|10.52|
+|Transparent Container|1|9.99|9.99|
+|Gas Inlet and Outlet Valves|3|15.38|46.14|
+|Silicon Sealant|1|9.99|9.99|
 |1/4" Vinyl Hose 25' long|2|9.28|18.56|
-|Non-Contact Capacitive Water Level Sensor|2| 9.94|19.88|
-|Electric Brass Solenoid Valve|1|44.95|44.95|
+|Searer Torch|1|11.00|11.00|
 
 
 
