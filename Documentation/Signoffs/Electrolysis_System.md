@@ -76,3 +76,5 @@ Bridgold 5pcs KBPC5010 Bridge Rectifier: https://www.amazon.com/Bridgold-KBPC501
 Auxiliary Capacitor: https://www.mouser.com/ProductDetail/TDK/FA22X7R2A225KNU00?qs=sGAEpiMZZMsh%252B1woXyUXj1zzeG0a68Rdkzsqp1yRR6s%3D
 
 Electrolysis Water Machine Instruction Manual:
+
+![image](/Documentation/Images/Electrolysis_System/Instruction_Manual.jpg)
