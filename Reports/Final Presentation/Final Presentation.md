@@ -1,6 +1,6 @@
 ## Final Presentation
 
-The final presentation should capture the technical aspects of the design (identification, formulation, conceptual design, deetail design, analysis, implementation, and validation) without attempting to include every detail exhaustively. Instead, the presentation should represent the things which were most salient about the project. 
+The final presentation should capture the technical aspects of the design (identification, formulation, conceptual design, detail design, analysis, implementation, and validation) without attempting to include every detail exhaustively. Instead, the presentation should represent the things which were most salient about the project. 
 
 The goal is to build a compelling and interesting presentation which includes the necessary technical information and excludes the obvious. 
 
