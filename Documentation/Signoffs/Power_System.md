@@ -13,8 +13,8 @@ This subsystem's purpose is to allow power supplied from a wall outlet to be use
 | 2   | The system shall comply with NFPA 70, in reference to all wiring and power consumption    | Design Constraint/ NFPA 70 |
 | 3   | The subsystems shall not have fluctuations in voltage of greater or less than 10 volts compared to the rated voltage  | Design Constraints |
 | 4   | The system shall be able to power multpile different devices with different rated voltages | Design Constraint |
-| 5   | The system shall be able to 5 VDC | Design Constraint |
-| 6   | The system shall be able to 12 VDC | Design Constraint |
+| 5   | The system shall be able to supply 5 VDC | Design Constraint |
+| 6   | The system shall be able to supply 12 VDC | Design Constraint |
 | 7   | The system shall have no dangerous exposed wires and shall be grounded as needed | OSHA 1910.304 - 305 and IEC 60950-1 Safety Standards |
 
 
@@ -72,7 +72,7 @@ The above table lists the rated voltages of each device.
 
 Pulse Inverter
 
-The pulse inverter will be powered by 12 VDC and will have an average power draw of X W. This means the average current draw is
+The pulse inverter will be powered by 12 VDC and will have an average power draw of 50 W. This means the average current draw is
 ~~~math
 I_{Pulse Inverter} = P/V = (50W)/(12V) = 4.167A
 ~~~
