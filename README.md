@@ -52,7 +52,7 @@ Use this space to recognize anyone that you feel has had an impact on the projec
 
 Give the layout of the repo and what can be found where. Make it easy on those who are interested by making the headings of the various things in this section clickable links to the relevant folder or file in the repo.
 
-###[Reports](/Reports)
+### [Reports](/Reports)
 
 The [Project Proposal](/Reports/Project%20Proposal/Project_Proposal-V2.pdf) report addresses key questions about the project. It states exactly what the problem is and what the solution plans to achieve. 
 
