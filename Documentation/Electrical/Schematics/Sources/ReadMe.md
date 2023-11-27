@@ -1,6 +1,5 @@
 ## DWG Files of Included Electrical Schematics
-1. Electrolysis System Pulse Inverter
-2. Controller System Sensors and Microcontroller
-3. Water System Valve
-4. Power System Wiring
-5. Safety System Wiring
+1. Controller System Sensors and Microcontroller
+2. Water System Valve
+3. Power System Wiring
+4. Safety System Wiring
