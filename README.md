@@ -46,7 +46,7 @@ The customer for the project is Dr. Van Neste for research he wishes to pursue i
 
 ### Recognitions
 
-Use this space to recognize anyone that you feel has had an impact on the project. Be sure to recognize the work of previous teams if you referenced it for style or content. 
+The team would like to thank the ECE Department for any assistantance needed in the early stages of design.We would espcially like to thank **Jesse Roberts** for helping the team when Dr. Van Neste was busy with other work. 
 
 ## Repo Organization
 
