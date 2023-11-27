@@ -2,10 +2,10 @@
 
 ## Executive Summary
 
- The Pulse Inverted Electrolyzer primary goal's are to boost the efficiency of the standard constant current electroylsis machine. A Standard Electrolysis sytem takes in constant current and turns an eletrolytic solution into gasses from said soluiton. The  Pulse Inverted Electrolyzer will boost efficiencies two ways. One will be by pulsing the current given to the electrodes, and the other by using consant magnetic fields to redirect ions back to the electrodes. By pulsing the current in an electrolyzer it takes adavantage of two ideas happening inside the water of the system. When first fired on the electrodes will gain electrons around, and prevent current to pass through. By pulsing the current the system allows for this layer to disperse to make for more current to flow through the electrolytic solution. Also by pulsing the current we will be able to send burst of energy through the system instead of the constant current normally supplied. The other way the system will boost efficiency will be using magents placed around the housing of the cell. This will basically push the electrons closer to the electrodes and further away from the cell walls. The system will also include a way to read the power the pulse inverter will be drawing and the amount of gas being outputted, to then calculate a efficency of the energy of the systems output versus its input. 
+ The Pulse Inverted Electrolyzer primary goal is to boost the efficiency of the standard constant current electrolysis machine. A Standard Electrolysis system takes in constant current and turns an electrolytic solution into gasses from said solution. The  Pulse Inverted Electrolyzer will boost efficiencies in two ways. One will be by pulsing the current given to the electrodes, and the other by using constant magnetic fields to redirect ions back to the electrodes. By pulsing the current in an electrolyzer it takes advantage of two ideas happening inside the water of the system. When first fired on the electrodes will gain electrons around, and prevent current from passing through. By pulsing the current the system allows for this layer to disperse to make for more current to flow through the electrolytic solution. Also by pulsing the current, we will be able to send a burst of energy through the system instead of the constant current normally supplied. The other way the system will boost efficiency will be by using magnets placed around the housing of the cell. This will basically push the electrons closer to the electrodes and further away from the cell walls. The system will also include a way to read the power the pulse inverter will be drawing and the amount of gas being outputted, to then calculate the efficiency of the energy of the system's output versus its input. 
 
 ## Capabilities
-The system will be divided into multiple systems that each have several expectations. The controller system should calculate the energy effienciecy based off the flowrate of the gas output and the current draw of pulse inverter. The safety system should any failed state go to a shutoff state. There will be a bypass for the user to be able to light the gas at the output of the gas system. The water system should automatically refill the cell with water when ever the system is too low.
+The system will be divided into multiple systems that each have several expectations. The controller system should calculate the energy efficiency based on the flow rate of the gas output and the current draw of the pulse inverter. The safety system should any failed state go to a shutoff state. There will be a bypass for the user to be able to light the gas at the output of the gas system. The water system should automatically refill the cell with water whenever the system is too low.
 
 
 ## Salient Outcomes
@@ -15,7 +15,7 @@ Projects often have some outcomes that are more interesting than others. Here, h
 
 ## Project Demonstration & Images
 
-Give a link to a video of the project being demonstrated. The video should be hosted on the capstone youtube.
+Give a link to a video of the project being demonstrated. The video should be hosted on the capstone YouTube.
 
 Below the video link show some well-taken, appropriately sized images of the project.
 
@@ -26,13 +26,13 @@ Below the video link show some well-taken, appropriately sized images of the pro
 
 **Brennan Angus**
 
-**Matthew Beausoleil** is an Electrical Engineering student at Tennessee Technological University with a minor in Computer Science.Matthew's interest are in digital system design, telecommunications, and signal processing. Matthews main focus in the project are the design of the water system, and ensuring that it automaticall refills the water when sensed it is not high enough.
+**Matthew Beausoleil** is an Electrical Engineering student at Tennessee Technological University with a minor in Computer Science. Matthew's interests are in digital system design, telecommunications, and signal processing. Matthews's main focus in the project is the design of the water system, and ensuring that it automatically refills the water when senses it is not high enough.
 
 **Jacob Cooper**
 
 **Wyatt Groves**
 
-**Austin Jerrolds**
+**Austin Jerrolds** is a Computer Engineering student at Tennesee Technological University. Austin's interests are Embedded Systems, Digital System Design, and software development. Matthew's main focus in the project is the controller system which is responsible for the efficiency computations to measure the project's success. 
 
 **Conner Sanders**
 
@@ -40,13 +40,13 @@ Below the video link show some well-taken, appropriately sized images of the pro
 [Charles Van Neste, Phd](https://www.tntech.edu/directory/engineering/faculty/charles-van-neste.php) is an Assistant Professor at Tennessee Tech University. He received his Bachelor's, Master's, and Doctorate at Tennessee Technological University. 
 
 ### Stakeholders
-The customer for the project is Dr. Van Neste for research he wishes to pursue in making a resisdential electrolzer for the uses with hydrogen powered cars. The project will be using technology develop by Dr Van Neste to see the impact it would have on the overall efficiency of the system.  
+The customer for the project is Dr. Van Neste for research he wishes to pursue in making a residential electrolzer for the uses of hydrogen-powered cars. The project will be using technology develop by Dr Van Neste to see the impact it would have on the overall efficiency of the system.  
 
 
 
 ### Recognitions
 
-The team would like to thank the ECE Department for any assistantance needed in the early stages of design.We would espcially like to thank **Jesse Roberts** for helping the team when Dr. Van Neste was busy with other work. 
+The team would like to thank the ECE Department for any assistance needed in the early stages of design. We would especially like to thank **Jesse Roberts** for helping the team when Dr. Van Neste was busy with other work. 
 
 ## Repo Organization
 
@@ -62,18 +62,18 @@ The [Poster](/Reports/Poster) is [finish later]
 
 The [Final Report](/Reports/Final%20Report) includes [finish later]
 
-The [Lessons Learned](/Reports/Lessons%20Learned/Lessons%20Learned.md) files shows all lessons learned throughout the process. It includes lessons in both team communication, project management, and technical knowledge.
+The [Lessons Learned](/Reports/Lessons%20Learned/Lessons%20Learned.md) files show all lessons learned throughout the process. It includes lessons in team communication, project management, and technical knowledge.
 
 ### [Documentation](/Documentation)
 
-All documentation is included in the above folder. Folders for the files including schematics and images are included in their respective folders. All files related to a specific signoff are then in a subfolder labeled appropriately.
+All documentation is included in the above folder. Folders for the files including schematics and images are included in their respective folders. All files related to a specific signoff are then in a subfolder labelled appropriately.
 
-Documentation include all schematics, images, models, and designs used in the project. 
+Documentation includes all schematics, images, models, and designs used in the project. 
 
-The [Signoffs](/Documentation/Signoffs) folder houses all approved detail designs. These designs are for each subsystem and shows all constraints. The signoffs should convince the reader that all constraints are met as well as link to all other relevant documentation in their respective folders. These signoffs should also link any software in which is relevant.
+The [Signoffs](/Documentation/Signoffs) folder houses all approved detail designs. These designs are for each subsystem and show all constraints. The signoffs should convince the reader that all constraints are met as well as link to all other relevant documentation in their respective folders. These signoffs should also link any software which is relevant.
 
-The [Meeting Minutes](/Documentation/Meeting%20Minutes) folder contains dated minutes for all team meetings. This allows the reader to analyze current and previous progress in a time based manner. 
+The [Meeting Minutes](/Documentation/Meeting%20Minutes) folder contains dated minutes for all team meetings. This allows the reader to analyze current and previous progress in a time-based manner. 
 
 
 ### Software
-All software will be located in this directory. For each specific problem or system, a folder will be created that contains all relevant code along with a readme that explains installation, compiling, executing of the code.
+All software will be located in this directory. For each specific problem or system, a folder will be created that contains all relevant code along with a readme that explains the installation, compiling, execution of the code.
