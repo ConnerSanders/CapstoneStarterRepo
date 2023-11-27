@@ -52,7 +52,7 @@ The team would like to thank the ECE Department for any assistantance needed in 
 
 ### [Reports](/Reports)
 
-The [Project Proposal](/Reports/Project%20Proposal/Project_Proposal-V2.pdf) report addresses key questions about the project. It states exactly what the problem is and what the solution plans to achieve. 
+The [Project Proposal](/Reports/Proposal/Project_Proposal-V2.pdf) report addresses key questions about the project. It states exactly what the problem is and what the solution plans to achieve. 
 
 The [Conceptual Design and Planning](/Reports/Conceptual%20Design/Conceptual_DesignV2.pdf) report provides all specifications and constraints the project must follow. This includes standards and regulations that must be followed.
 
