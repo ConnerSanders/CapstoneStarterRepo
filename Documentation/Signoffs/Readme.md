@@ -7,4 +7,4 @@ All completed Signoffs
 5. [Power System](https://github.com/ConnerSanders/Pulse-Inverted-Electrolyzer/blob/main/Documentation/Signoffs/Power_System.md)
 
 # Signoffs to be completed
-1. Flame System
+1. Gas System
