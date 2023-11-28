@@ -32,7 +32,7 @@ Below the video link show some well-taken, appropriately sized images of the pro
 
 **Wyatt Groves**
 
-**Austin Jerrolds** is a Computer Engineering student at Tennesee Technological University. Austin's interests are Embedded Systems, Digital System Design, and software development. Matthew's main focus in the project is the controller system which is responsible for the efficiency computations to measure the project's success. 
+**Austin Jerrolds** is a Computer Engineering student at Tennesee Technological University. Austin's interests are Embedded Systems, Digital System Design, and software development. Austin's main focus in the project is the controller system which is responsible for the efficiency computations to measure the project's success. 
 
 **Conner Sanders**
 
@@ -40,7 +40,7 @@ Below the video link show some well-taken, appropriately sized images of the pro
 [Charles Van Neste, Phd](https://www.tntech.edu/directory/engineering/faculty/charles-van-neste.php) is an Assistant Professor at Tennessee Tech University. He received his Bachelor's, Master's, and Doctorate at Tennessee Technological University. 
 
 ### Stakeholders
-The customer for the project is Dr. Van Neste for research he wishes to pursue in making a residential electrolzer for the uses of hydrogen-powered cars. The project will be using technology develop by Dr Van Neste to see the impact it would have on the overall efficiency of the system.  
+The customer for the project is Dr. Van Neste for research he wishes to pursue in making a residential electrolyzer for the uses of hydrogen-powered cars. The project will be using technology develop by Dr Van Neste to see the impact it would have on the overall efficiency of the system.  
 
 
 
