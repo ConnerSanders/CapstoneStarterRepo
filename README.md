@@ -34,7 +34,7 @@ Below the video link show some well-taken, appropriately sized images of the pro
 
 **Austin Jerrolds** is a Computer Engineering student at Tennesee Technological University. Austin's interests are Embedded Systems, Digital System Design, and software development. Austin's main focus in the project is the controller system which is responsible for the efficiency computations to measure the project's success. 
 
-**Conner Sanders**
+**Conner Sanders** is a Computer Engineering student at Tennesee Technological University. Conner's intrests are embedded and Digital Systems. Conner also has some experience with controls and pneumatics. Conner's main focus in the project is the safety system, which cuts off power in the event that the electrolyzer becomes unsafe.
 
 ### Faculty Supervisor
 [Charles Van Neste, Phd](https://www.tntech.edu/directory/engineering/faculty/charles-van-neste.php) is an Assistant Professor at Tennessee Tech University. He received his Bachelor's, Master's, and Doctorate at Tennessee Technological University. 
