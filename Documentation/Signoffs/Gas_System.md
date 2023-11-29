@@ -51,6 +51,7 @@ The tubing in the gas arrestor system is a critical conduit connecting the gas i
 |Silicon Sealant|1|9.99|9.99|
 |1/4" Vinyl Hose 25' long|2|9.28|18.56|
 |Searer Torch|1|11.00|11.00|
+|5-1/4 in. Cast Iron Valve Box Lid for Gas|2|30.87|61.74|
 
 
 
