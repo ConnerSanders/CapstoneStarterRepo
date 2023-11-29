@@ -33,33 +33,15 @@ In an electrolysis system, a gas arrestor, or gas trap, is a device used to capt
 
 #### Electrolysis Flame Torch
 
-The Flame King Searer Attachment Tip will be attached to the electrolysis system. In an electrolysis system, a flame torch can be used for various purposes, depending on the specific requirements of the process. In an electrolysis system, a flame torch can be used for various purposes, depending on the specific requirements of the process.
+The flame torch in this gas arrestor system serves a crucial role in ensuring the safe ignition of gases. Its primary function is to provide a controlled flame for initiating the combustion process. Designed with user safety in mind, the torch acts as a reliable source for igniting gases without the risk of unwanted combustion. Its integration into the system enhances the overall safety and efficiency of gas handling during the electrolysis process.
 
-#### Construction
-Materials Needed:
+#### Gas Inlet and Outlet Valves
 
-Transparent or translucent plastic or glass container with a lid
-Tubing (preferably made of a material resistant to the gas being handled, such as PVC or rubber)
-Silicone sealant or epoxy glue
-Gas outlet valve
-Gas inlet valve
-Activated carbon or absorbent material
-Safety gloves and goggles
-Steps to Make a Gas Arrestor:
+The gas inlet and outlet valves are pivotal components that regulate the flow of gases within the gas arrestor system. Configured for airtight sealing on the transparent container's lid, these valves facilitate controlled entry and exit of gases. The use of three valves allows for precise control over gas flow, ensuring safety and operational efficiency. Their construction from durable materials such as PVC or rubber enhances resistance to the handled gases, reducing the risk of leaks and ensuring a secure containment environment.
 
-Select a suitable container: Choose a transparent or translucent container that is large enough to hold the anticipated gas volume. Ensure that it has a tight-sealing lid that can be securely fastened.
+#### Tubing
 
-Install the gas inlet and outlet valves: Drill holes in the lid of the container and attach the gas inlet and outlet valves securely using silicone sealant or epoxy glue. Make sure the valves are airtight to prevent any gas leakage.
-
-Connect the tubing: Attach the tubing to the gas inlet valve and ensure it is securely fastened. The other end of the tubing should be placed at the bottom of the container to allow the gas to pass through the absorbent material.
-
-Insert the absorbent material: Fill the bottom of the container with activated carbon or any suitable absorbent material. This will help trap and filter out any impurities or unwanted gases that pass through the system.
-
-Secure the lid: Seal the container with the lid and ensure it is tightly closed to prevent any gas from escaping. Use additional silicone sealant or epoxy glue if necessary to ensure a secure seal.
-
-Test for leaks: Before use, conduct a thorough leak test to ensure that the gas arrestor is airtight and that there are no potential leaks in the system. This step is crucial to prevent any hazardous situations during operation.
-
-Install the gas arrestor in the desired location: Place the gas arrestor in a suitable location where it can effectively trap and handle the gases produced during the electrolysis process.
+The tubing in the gas arrestor system is a critical conduit connecting the gas inlet valve to the absorbent material at the bottom of the container. Constructed from PVC or rubber, the tubing is chosen for its resistance to the specific gases being handled. Its 1/4" diameter strikes a balance between efficient gas flow and controlled passage. The tubing's secure attachment to the gas inlet valve and placement within the container ensures a well-directed flow of gases through the absorbent material, optimizing the absorption and filtration process for enhanced safety and performance.
 
 ## BOM
 | Device | Quantity | Price per Unit ($) | Total Cost ($) |
