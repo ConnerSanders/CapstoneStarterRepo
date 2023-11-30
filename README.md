@@ -28,7 +28,7 @@ Below the video link show some well-taken, appropriately sized images of the pro
 
 **Matthew Beausoleil** is an Electrical Engineering student at Tennessee Technological University with a minor in Computer Science. Matthew's interests are in digital system design, telecommunications, and signal processing. Matthews's main focus in the project is the design of the water system, and ensuring that it automatically refills the water when senses it is not high enough.
 
-**Jacob Cooper**
+**Jacob Cooper** is a Computer Engineering student at Tennessee Technological University. Jacob's interests are Circuits and Digital Based Programming. Jacob's main focus in the project is the design of the gas system and making sure there is correct ventilation and gas processing in order to create an output flame.
 
 **Wyatt Groves** is an Electrical Engineering student at Tennessee Technological University. Wyatt's interests are Telecommunication and Signal Processing. Wyatt's main focus in the project is the design of the power system and ensuring all components receive the proper amounts of power. 
 
