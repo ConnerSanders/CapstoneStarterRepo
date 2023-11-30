@@ -5,9 +5,9 @@ The gas system plays an essential role in facilitating the electrolysis process,
 ## Constraints
 | No. | Constraints                                                                                   | Origin            |
 | --- | --------------------------------------------------------------------------------------------- | ----------------- |
-| 1| The presence of corrosive gases or electrolytes in the system shall be avoid.          | Design Constraint |**********************
+| 1| The presence of corrosive gases or electrolytes in the system shall be avoided.          | Design Constraint |**********************
 | 2| The controlling and managing of the pressure of gases shall be used within the system.                           | Design Constraint |
-| 3| The temperature shall be monitored in order to make sure the gas temperature is not effected.					| Design Constraint |
+| 3| The temperature shall be monitored in order to make sure the gas temperature is not affected.					| Design Constraint |
 |	4| The gas system shall be designed to handle the expected gas production capacity.		| Design Constraint |
 | 5| Maintenance and Monitoring shall be constant in the gas system to prevent unexpected breakdowns.                                      | Ethical Constraint|
 
@@ -23,7 +23,7 @@ The gas system shall be equipped with components that aid in the separation and 
 
 ## Buildable Schematic
 
-<img src="/Documentation/Images/Gas.drawio.png" width="90%" height="90%">
+<img src="/Documentation/Images/Gas_System/Gas.drawio.png" width="90%" height="90%">
 
 ## Analysis
 
