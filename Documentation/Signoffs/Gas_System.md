@@ -23,7 +23,7 @@ The gas system shall be equipped with components that aid in the separation and 
 
 ## Buildable Schematic
 
-<img src="/Documentation/Images/Gas_System/Gas.drawio.png" width="90%" height="90%">
+<img src="/Documentation/Images/Gas_System/Arrestor.drawio.png" width="90%" height="90%">
 
 ## Analysis
 
