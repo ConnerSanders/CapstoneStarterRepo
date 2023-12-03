@@ -57,7 +57,7 @@ The auxiliary capacitor is used for manipulating pulse widths that are seen by t
 ## BOM
 | Device                                                | Quantity | Price per Unit | Total Cost |
 | ----------------------------------------------------- | -------- | -------------- | ---------- |
-| Electrolysis Water Machine with Spray-Gun             | 1        | $93.99         | $83.60     |
+| Electrolysis Water Machine with Spray-Gun             | 1        | $93.99         | $93.99     |
 | TRYMAG Small Magnets 150Pcs, 12x2mm Neodymium Magnets | 1        | $16.19         | $16.19     |
 | Pulse Inverter                                        | 1        | NA             | NA         |
 | KBPC5010 Bridge Rectifier                             | 5        | $1.80          | $8.99      |
