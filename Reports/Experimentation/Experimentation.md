@@ -1,17 +1,59 @@
-The goal of experimentation is to measure the conformance to all specs and constraints and the attainment of all measures of success. Each team must be able to evaluate, in a non-trivial manner ($N>1$), attainment of all measures of success and all constraints enumerated in the signoffs.
+# Experimental Analysis Report
 
-After experimentation, it should be the case that the level of conformance to specs and constraints and attainment of the measures of success is well understood and the subsystems which need improvements are understood.
+## Introduction
+The purpose of the Experimental Analysis is to test if project constraints are being met and to document the experiments used to measure success.  
+### Requirements Table
+| **Constraint** |           **Constraint Description**                                                                                  | **Subsystem** |
+|--------|-------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| 1      | Shall accurately measure the electrical efficiency of the electrolyzer                                                        | Controller  |
+| 2      | Display output shall be easy to read and simplistic.                                                                          | Controller  |
+| 3      | The material of the electrolytic cell housing shall not be reactive with sodium hydroxide.                                    | Electrolysis  |
+| 4      | The system shall include a pulse generator and permanent magnets to boost efficiency.                                         | Electrolysis  |
+| 5      | The pulse generator’s output should be rectified.                                                                             | Electrolysis  |
+| 6      | The pulse inverter must be able to be shut off within two clock cycles by the safety system.                                  | Electrolysis  |
+| 7      | The water in the cell shall automatically refill when below 2/3rds of the cell's capacity.                                    | Water  |
+| 8      | The water system fittings will use non-corrosive materials for fittings                                                       | Water  |
+| 9      | The water system shall prevent backwards flow of water.                                                                       | Water  |
+| 10     | The system shall convert wall AC Voltage to DC voltage.                                                                       | Power  |
+| 11     | The system shall be able to supply 5 VDC.                                                                                     | Power  |
+| 12     | The system shall be able to supply 12 VDC.                                                                                    | Power  |
+| 13     | The system shall have no dangerous exposed wires and shall be grounded as needed.                                             | Power  |
+| 14     | Shall contain an emergency-stop button                                                                                        | Safety |
+| 15     | Shall shutoff if pressure and temperature approach ignition conditions of Brown's gas                                         | Safety |
+| 16     | System monitors must be designed with redundancies                                                                            | Safety |
+| 17     | System shall not produce gas unless there is a flame present.                                                                 | Safety |
 
-It is not required that the team be "done" with the project by the experimentation date (it is expected that there will be improvements to be made after this date). However, the conformance to all requirements and constraints must be measured by that date. This will typically require significant functionality as many measures of success require multiple subsystems. If errors in the initial design have caused some items to be unmeasurable by the experimentation date, the appropriate deduction (if any) will be considered on a case by case basis by the supervisor and instructor.
 
-Regarding the design of the experiments, the experiment must sufficiently establish the value of whatever is being measured and the statistical significance of the value being measured. If the number of experiments, $N$, is equal to 1 then the results aren't meaningful.
+## Results
 
-## Requirements for the Deliverable
+### Constraint 1 - Shall accurately measure the electrical efficiency of the electrolyzer 
 
-The deliverable for this assignment is a demonstration of the experiments (live or videoed) and a well organized markdown file in the project github. For each experiment, you must give the following in a well organized fashion: 
-1. purpose of the experiment (what you intend to measure)
-2. description of what you did (experimental procedure)
-3. the expected result (prediction)
-4. the number of trials 
-5. a data table or graph of the results (whichever is appropriate) 
-6. an interpretation of the data (interpreting the data requires the writer to explain what the results of the experiments mean and conclusions you draw)
+Experimental Design
+
+Results
+
+Conclusion
+
+### Constraint 2 -  Display output shall be easy to read and simplistic.
+
+## Conclusion
+
+| **Constraint** |     **Constraint Description**                                                                                        | **Constraint Met?** |
+|--------|-------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| 1      | Shall accurately measure the electrical efficiency of the electrolyzer                                                        | Controller  |
+| 2      | Display output shall be easy to read and simplistic.                                                                          | Controller  |
+| 3      | The material of the electrolytic cell housing shall not be reactive with sodium hydroxide.                                    | Electrolysis  |
+| 4      | The system shall include a pulse generator and permanent magnets to boost efficiency.                                         | Electrolysis  |
+| 5      | The pulse generator’s output should be rectified.                                                                             | Electrolysis  |
+| 6      | The pulse inverter must be able to be shut off within two clock cycles by the safety system.                                  | Electrolysis  |
+| 7      | The water in the cell shall automatically refill when below 2/3rds of the cell's capacity.                                    | Water  |
+| 8      | The water system fittings will use non-corrosive materials for fittings                                                       | Water  |
+| 9      | The water system shall prevent backwards flow of water.                                                                       | Water  |
+| 10     | The system shall convert wall AC Voltage to DC voltage.                                                                       | Power  |
+| 11     | The system shall be able to supply 5 VDC.                                                                                     | Power  |
+| 12     | The system shall be able to supply 12 VDC.                                                                                    | Power  |
+| 13     | The system shall have no dangerous exposed wires and shall be grounded as needed.                                             | Power  |
+| 14     | Shall contain an emergency-stop button                                                                                        | Safety |
+| 15     | Shall shutoff if pressure and temperature approach ignition conditions of Brown's gas                                         | Safety |
+| 16     | System monitors must be designed with redundancies                                                                            | Safety |
+| 17     | System shall not produce gas unless there is a flame present.                                                                 | Safety |
