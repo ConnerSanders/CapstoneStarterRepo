@@ -36,6 +36,34 @@ Conclusion
 
 ### Constraint 2 -  Display output shall be easy to read and simplistic.
 
+### Constraint 14 - Shall contain an emergency-stop button
+Experimental Design - When emergency stop button is pressed, the power to the pulse inverter must be cut off.
+
+Results - Power to the pulse inverter is cut off when the emergency-stop button is pressed. The system stops producing gas.
+
+Conclusion - Constraint was tested and passed.
+
+### Constraint 15 - Shall shut off if pressure and temperature approach ignition conditions of Brown's gas
+Experimental Design - When the temperature sensor reaches 100 degrees celsius or the pressure sensor reaches 15 psi, power to the pulse inverter is cut off.
+
+Results - When temperature sensor reaches 100 degrees celsius, power is cut off. PRESSURE UNTESTED
+
+Conclusion - Temperature constraint was tested and passed. PRESSURE UNTESTED
+
+### Constraint 16 - System monitors must be designed with redundancies
+
+Experimental Design - Relay outputs were separated and tested independently while still connected to the same circuit.
+
+Results - Every Safety circuit has 2 relays that have their own independent outputs.
+
+Conclusion - Constraint was tested and passed
+
+### Constraint 17 - System shall not produce gas unless flame is present
+
+Experimental Design - The flame sensor that was ordered does not work as expected. This constraint could not be tested, so it does not pass.
+
+Conclusion - This constraint needs work. A new sensor has been ordered. This constraint will be tested when the new sensor arrives.
+
 ## Conclusion
 
 | **Constraint** |     **Constraint Description**                                                                                        | **Constraint Met?** |
