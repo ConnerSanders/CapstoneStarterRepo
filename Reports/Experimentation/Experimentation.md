@@ -83,7 +83,7 @@ Conclusion - Constraint was tested but did not pass.
 | 11     | The system shall be able to supply 5 VDC.                                                                                     | Power  |
 | 12     | The system shall be able to supply 12 VDC.                                                                                    | Power  |
 | 13     | The system shall have no dangerous exposed wires and shall be grounded as needed.                                             | Power  |
-| 14     | Shall contain an emergency-stop button                                                                                        | Safety |
-| 15     | Shall shutoff if pressure and temperature approach ignition conditions of Brown's gas                                         | Safety |
-| 16     | System monitors must be designed with redundancies                                                                            | Safety |
-| 17     | System shall not produce gas unless there is a flame present.                                                                 | Safety |
+| 14     | Shall contain an emergency-stop button                                                                                        | Yes |
+| 15     | Shall shutoff if pressure and temperature approach ignition conditions of Brown's gas                                         | Yes |
+| 16     | System monitors must be designed with redundancies                                                                            | Yes |
+| 17     | System shall not produce gas unless there is a flame present.                                                                 | No  |
