@@ -58,11 +58,13 @@ Results - Every Safety circuit has 2 relays that have their own independent outp
 
 Conclusion - Constraint was tested and passed
 
-### Constraint 17 - System shall not produce gas unless flame is present
+### Constraint 17 - System shall not produce gas unless a flame is present
 
-Experimental Design - The flame sensor that was ordered does not work as expected. This constraint could not be tested, so it does not pass.
+Experimental Design - Flame was held up to the flame sensor and the output was observed.
 
-Conclusion - This constraint needs work. A new sensor has been ordered. This constraint will be tested when the new sensor arrives.
+Results - The output of the flame sensor did not change from 0 volts. A new flame sensor has been ordered, the original flame sensor does not perform as expected.
+
+Conclusion - Constraint was tested but did not pass.
 
 ## Conclusion
 
