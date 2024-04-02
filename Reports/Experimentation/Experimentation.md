@@ -22,6 +22,7 @@ The purpose of the Experimental Analysis is to test if project constraints are b
 | 15     | Shall shutoff if pressure and temperature approach ignition conditions of Brown's gas                                         | Safety |
 | 16     | System monitors must be designed with redundancies                                                                            | Safety |
 | 17     | System shall not produce gas unless there is a flame present.                                                                 | Safety |
+| 18     | Gas system shall prevent the backflow of flame from causing damage to the system.                                             | Gas |
 
 
 ## Results
@@ -36,8 +37,33 @@ Conclusion
 
 ### Constraint 2 -  Display output shall be easy to read and simplistic.
 
-### Constraint 14 - Shall contain an emergency-stop button
-Experimental Design - When emergency stop button is pressed, the power to the pulse inverter must be cut off.
+### Constraint 11 - The system shall be able to supply 5 VDC.
+
+#### Experimental Design 
+
+The goal of this experiment is to verify that any components in the system that need 5 Volts are receiving the required power for them to function.
+
+This was tested by placing the positive end of a Digital Multimeter along the positive 5V rail in the system and the negative end of the Multimeter along the ground rail of the system. Through this process we measured the voltage.
+
+Results
+
+<img src="Reports/Experimentation/images/5VoltTest.jpg">
+Conclusion
+
+### Constraint 12 - The system shall be able to supply 12 VDC.   
+
+Experimental Design 
+
+The goal of this experiment is to verify that any components in the system that need 12 Volts are receiving the required power for them to function.
+
+This was tested by placing the positive end of a Digital Multimeter along the positive 12V rail in the system and the negative end of the Multimeter along the ground rail of the system. Through this process we measured the voltage.
+
+Results 
+
+Conclusion
+
+### Constraint 14 - Shall contain an emergency stop button
+Experimental Design - When the emergency stop button is pressed, the power to the pulse inverter must be cut off.
 
 Results - Power to the pulse inverter is cut off when the emergency-stop button is pressed. The system stops producing gas.
 
@@ -66,6 +92,14 @@ Results - The output of the flame sensor did not change from 0 volts. A new flam
 
 Conclusion - Constraint was tested but did not pass.
 
+### Constraint 18 - Gas system shall prevent the backflow of flame from causing damage to the system.
+
+Experimental Design - 
+
+Results - 
+
+Conclusion - 
+
 ## Conclusion
 
 | **Constraint** |     **Constraint Description**                                                                                        | **Constraint Met?** |
@@ -87,3 +121,5 @@ Conclusion - Constraint was tested but did not pass.
 | 15     | Shall shutoff if pressure and temperature approach ignition conditions of Brown's gas                                         | Yes |
 | 16     | System monitors must be designed with redundancies                                                                            | Yes |
 | 17     | System shall not produce gas unless there is a flame present.                                                                 | No  |
+| 18     | Gas system shall prevent the backflow of flame from causing damage to the system.                                             | Yes |
+
