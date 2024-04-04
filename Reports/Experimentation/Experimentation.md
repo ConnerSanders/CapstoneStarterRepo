@@ -36,11 +36,7 @@ The purpose of the Experimental Analysis is to test if project constraints are b
 
 ### Constraint 2 -  Display output shall be easy to read and simplistic.
 
-#### Experimental Design
-
-#### Results
-
-#### Conclusion
+<img src="serialport.png" width="200" length="200">
 
 ### Constraint 3 - The material of the electrolytic cell housing shall not be reactive with sodium hydroxide.
 
