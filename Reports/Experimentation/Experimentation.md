@@ -30,13 +30,37 @@ The purpose of the Experimental Analysis is to test if project constraints are b
 
 #### Experimental Design
 
+First, the power used will be measured using an oscilloscope then that value will be compared to the power sensor to confirm its accuracy. Lastly, the gas flow rate will be converted to watts to compute efficiency.
+
 #### Results
+
+<img src="images/currentInput.jpg" width="200" length="200">
+
+##### Current Input
+
+<img src="images/output.png" width="500" length="500">
+
+##### Power sensor output
+
+<img src="images/gasoutput.png" width="500" length="500">
+
+##### Flow rate sensor output in sccm
+
+The input voltage is 12 volts 
 
 #### Conclusion
 
+This constraint was not met.
+
 ### Constraint 2 -  Display output shall be easy to read and simplistic.
 
-<img src="serialport.png" width="200" length="200">
+<img src="images/serialport.png" width="500" length="500">
+
+##### The sensor data can be easily observed with appropriate units, new lines for each output were added for clarity.
+
+#### Conclusion
+
+Constraint was met.
 
 ### Constraint 3 - The material of the electrolytic cell housing shall not be reactive with sodium hydroxide.
 
@@ -46,17 +70,31 @@ This constraint was not traditionally tested but was met.
 
 #### Experimental Design
 
+The efficiency should be measured with no pulse inverter and no magnets to determine a base efficiency. Once efficiency is determined efficiency can be retested and compared to determine if there is an increase.
+
 #### Results
 
+A pulse generator was fitted but not the originally planned version. This pulse inverter is still a work in progress for the team. Magnets were not fitted because efficiency was not accurately determined yet.
+
 #### Conclusion
+
+This constraint was not met.
 
 ### Constraint 5 - The pulse generator’s output should be rectified.
 
-#### Experimental Design
+<img src="images/currentInput.jpg" width="200" length="200">
 
-#### Results
+##### Current Input to Pulse Inverter
+
+<img src="images/currentOutput.jpg" width="200" length="200">
+
+##### Current Output to Pulse Inverter
+
+The current output waveform has been rectified. The negative part of the waveform has been removed.
 
 #### Conclusion
+
+This constraint was met.
 
 ### Constraint 6 - The water in the cell shall automatically refill when below 2/3rds of the cell's capacity. 
 
@@ -110,7 +148,7 @@ This constraint was not traditionally tested but was met.
 
 The goal of this experiment is to verify that any components in the system that need 5 Volts are receiving the required power for them to function.
 
-This was tested by placing the positive end of a Digital Multimeter along the positive 5V rail in the system and the negative end of the Multimeter along the ground rail of the system. Through this process we measured the voltage.
+This was tested by placing the positive end of a Digital Multimeter along the positive 5V rail in the system and the negative end of the Multimeter along the ground rail of the system. Through this process, we measured the voltage.
 
 #### Results
 
@@ -219,10 +257,10 @@ This constraint was met.
 | **Constraint** |     **Constraint Description**                                                                                        | **Constraint Met?** |
 |--------|-------------------------------------------------------------------------------------------------------------------------------|--------------------------|
 | 1      | Shall accurately measure the electrical efficiency of the electrolyzer                                                        | Controller  |
-| 2      | Display output shall be easy to read and simplistic.                                                                          | Controller  |
+| 2      | Display output shall be easy to read and simplistic.                                                                          | Yes |
 | 3      | The material of the electrolytic cell housing shall not be reactive with sodium hydroxide.                                    | Yes |
-| 4      | The system shall include a pulse generator and permanent magnets to boost efficiency.                                         | Electrolysis  |
-| 5      | The pulse generator’s output should be rectified.                                                                             | Electrolysis  |
+| 4      | The system shall include a pulse generator and permanent magnets to boost efficiency.                                         | No  |
+| 5      | The pulse generator’s output should be rectified.                                                                             | Yes |
 | 6      | The water in the cell shall automatically refill when below 2/3rds of the cell's capacity.                                    | Yes |
 | 7      | The water system fittings will use non-corrosive materials for fittings                                                       | Yes |
 | 8      | The water system shall prevent backwards flow of water.                                                                       | Yes |
