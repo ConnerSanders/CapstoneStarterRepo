@@ -44,11 +44,7 @@ The purpose of the Experimental Analysis is to test if project constraints are b
 
 ### Constraint 3 - The material of the electrolytic cell housing shall not be reactive with sodium hydroxide.
 
-#### Experimental Design
-
-#### Results
-
-#### Conclusion
+This constraint was not traditionally tested but was met. 
 
 ### Constraint 4 - The system shall include a pulse generator and permanent magnets to boost efficiency. 
 
@@ -70,9 +66,23 @@ The purpose of the Experimental Analysis is to test if project constraints are b
 
 #### Experimental Design
 
+Since the cell does not use as much water as expected to conduct this experiment the water will be removed from the cell. The sensor will then be placed above and below the current water level to see how the water flow valve behaves. 
+
 #### Results
 
+<img src="images/belowWater.jpg" width="300" length="300">
+
+##### Sensor placed below the water line.
+
+<img src="images/aboveWater.jpg" width="300" length="300">
+
+##### Sensor placed above the water line.
+
+While the sensor was not able to detect water the valve allowed water into the cell. While the sensor was able to detect water the valve was shut. The sensor is placed at the 2/3rds mark as per the constraint and has the intended behaviour of the water system.
+
 #### Conclusion
+
+This constraint was met.
 
 ### Constraint 7 - The water system fittings will use non-corrosive materials for fittings.  
 
@@ -94,7 +104,7 @@ The backflow valve to the right of the water valve keeps the water contained ins
 
 This constraint was met.
 
-### Constraint 9 - The system shall convert wall AC Voltage to DC voltage. 
+### Constraint 9 - The system shall convert wall AC Voltage to DC Voltage. 
 
 This constraint was not traditionally tested but was met.
 
@@ -201,7 +211,7 @@ The system was turned on, the torch was removed, and no flame was lit. After som
 <img src="images/Gas2.jpg" width="200" length="200">
 <img src="images/Gas3.jpg" width="200" length="200">
 
-The water in the arrestor expelled the flame and prevented it from traveling towards the cell. 
+The water in the arrestor expelled the flame and prevented it from travelling towards the cell. 
 
 #### Conclusion 
 
@@ -214,16 +224,16 @@ This constraint was met.
 |--------|-------------------------------------------------------------------------------------------------------------------------------|--------------------------|
 | 1      | Shall accurately measure the electrical efficiency of the electrolyzer                                                        | Controller  |
 | 2      | Display output shall be easy to read and simplistic.                                                                          | Controller  |
-| 3      | The material of the electrolytic cell housing shall not be reactive with sodium hydroxide.                                    | Electrolysis  |
+| 3      | The material of the electrolytic cell housing shall not be reactive with sodium hydroxide.                                    | Yes |
 | 4      | The system shall include a pulse generator and permanent magnets to boost efficiency.                                         | Electrolysis  |
 | 5      | The pulse generator’s output should be rectified.                                                                             | Electrolysis  |
-| 6      | The water in the cell shall automatically refill when below 2/3rds of the cell's capacity.                                    | Water  |
-| 7      | The water system fittings will use non-corrosive materials for fittings                                                       | Water  |
-| 8      | The water system shall prevent backwards flow of water.                                                                       | Water  |
-| 9      | The system shall convert wall AC Voltage to DC voltage.                                                                       | Yes  |
-| 10     | The system shall be able to supply 5 VDC.                                                                                     | Yes  |
-| 11     | The system shall be able to supply 12 VDC.                                                                                    | Yes  |
-| 12     | The system shall have no dangerous exposed wires and shall be grounded as needed.                                             | Yes  |
+| 6      | The water in the cell shall automatically refill when below 2/3rds of the cell's capacity.                                    | Yes |
+| 7      | The water system fittings will use non-corrosive materials for fittings                                                       | Yes |
+| 8      | The water system shall prevent backwards flow of water.                                                                       | Yes |
+| 9      | The system shall convert wall AC Voltage to DC voltage.                                                                       | Yes |
+| 10     | The system shall be able to supply 5 VDC.                                                                                     | Yes |
+| 11     | The system shall be able to supply 12 VDC.                                                                                    | Yes |
+| 12     | The system shall have no dangerous exposed wires and shall be grounded as needed.                                             | Yes |
 | 13     | Shall contain an emergency-stop button                                                                                        | Yes |
 | 14     | Shall shutoff if pressure and temperature approach ignition conditions of Brown's gas                                         | Yes |
 | 15     | System monitors must be designed with redundancies                                                                            | Yes |
