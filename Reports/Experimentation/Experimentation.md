@@ -46,7 +46,7 @@ First, the power used will be measured using an oscilloscope then that value wil
 
 ##### Flow rate sensor output in sccm
 
-The input voltage is 12 volts. Due to the surging current we will use the rms of the current to calculate the power into the cell. The cell had an input rms power of about 12.73 Watts.
+The input voltage is 12 volts. Due to the surging current, we will use the rms of the current to calculate the power into the cell. The cell had an input rms power of about 12.73 Watts. The power sensor is reading around 6-7 Watts so there is an error with the power sensor. Converting the gas output to Watts we achieve an efficiency rating of 2,600 so there is an error with how the flow rate sensor is reading.
 
 #### Conclusion
 
