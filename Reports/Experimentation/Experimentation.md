@@ -204,13 +204,16 @@ Constraint was tested and passed.
 
 ### Constraint 14 - Shall shut off if pressure and temperature approach ignition conditions of Brown's gas
 #### Experimental Design
-When the temperature sensor reaches 100 degrees celsius or the pressure sensor reaches 15 psi, power to the pulse inverter is cut off.
+The temperature sensor was wired into the safety circuit. A heat gun was used to heat the temperature sensor. Since the system doesnt need to cut off at exactly 100 degrees celcius, I assume the temperature spec of the sensor is accurate enough (no temperature measurement taken). A multimeter was used to read the voltage at the output of the circuit.
+
+The pressure sensor was wired into the safety circuit. A bike pump was used to pressurize the sensor. Since the system doent need to cut off at ecactly 15 psi, I assume the pressure spec of the sensor is accurate enough (no pressure measurement taken). A multimeter is used to read the voltage output of the circuit.
 
 #### Results
-When temperature sensor reaches 100 degrees celsius, power is cut off. PRESSURE UNTESTED
+The voltage output of the circuit drops to 0V after some time of heating the temperature sensor.
+The voltage output of the circuit drops to 0V after pressurizing the sensor.
 
 #### Conclusion
-Temperature constraint was tested and passed. PRESSURE UNTESTED
+Temperature constraint was tested and passed. Pressure constraint was tested and met.
 
 ### Constraint 15 - System monitors must be designed with redundancies
 
@@ -218,7 +221,7 @@ Temperature constraint was tested and passed. PRESSURE UNTESTED
 Relay outputs were separated and tested independently while still connected to the same circuit.
 
 #### Results
-Every Safety circuit has 2 relays that have their own independent outputs.
+The safety circuit has 2 relays that have their own independent outputs.
 
 #### Conclusion
 Constraint was tested and passed
@@ -226,7 +229,7 @@ Constraint was tested and passed
 ### Constraint 16 - System shall not produce gas unless a flame is present
 
 #### Experimental Design
-Flame was held up to the flame sensor and the output was observed.
+Flame was held up to the flame sensor and the output voltage was observed.
 
 #### Results
 The output of the flame sensor did not change from 0 volts. A new flame sensor has been ordered, the original flame sensor does not perform as expected.
