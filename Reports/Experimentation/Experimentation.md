@@ -195,7 +195,8 @@ When the emergency stop button is pressed, the power to the pulse inverter must 
 
 #### Results
 
-<img src="images/estop.jpg" width="200" length="200">
+<img src="images/estopON.jpg" width="200" length="200">
+<img src="images/estopOFF.jpg" width="200" length="200">
 
 Power to the pulse inverter is cut off when the emergency-stop button is pressed. The system stops producing gas.
 
@@ -220,7 +221,7 @@ The voltage output of the circuit drops to 0V after some time of heating the tem
 The voltage output of the circuit drops to 0V after pressurizing the sensor.
 
 #### Conclusion
-Temperature constraint was tested and passed. Pressure constraint was tested and met.
+Temperature constraint was tested and passed. Pressure constraint was tested and passed.
 
 ### Constraint 15 - System monitors must be designed with redundancies
 
@@ -228,6 +229,9 @@ Temperature constraint was tested and passed. Pressure constraint was tested and
 Relay outputs were separated and tested independently while still connected to the same circuit.
 
 #### Results
+<img src="images/redundant1.jpg" width="200" length="200">
+<img src="images/redundant2.jpg" width="200" length="200">
+
 The safety circuit has 2 relays that have their own independent outputs.
 
 #### Conclusion
