@@ -198,7 +198,7 @@ When the emergency stop button is pressed, the power to the pulse inverter must 
 <img src="images/estopON.jpg" width="200" length="200">
 <img src="images/estopOFF.jpg" width="200" length="200">
 
-Power to the pulse inverter is cut off when the emergency-stop button is pressed. The system stops producing gas.
+Voltage drops to 0V when emergency stop is pressed.
 
 #### Conclusion
 Constraint was tested and passed.
