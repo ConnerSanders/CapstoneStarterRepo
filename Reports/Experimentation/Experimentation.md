@@ -205,9 +205,9 @@ Constraint was tested and passed.
 
 ### Constraint 14 - Shall shut off if pressure and temperature approach ignition conditions of Brown's gas
 #### Experimental Design
-The temperature sensor was wired into the safety circuit. A heat gun was used to heat the temperature sensor. Since the system doesnt need to cut off at exactly 100 degrees celcius, I assume the temperature spec of the sensor is accurate enough (no temperature measurement taken). A multimeter was used to read the voltage at the output of the circuit.
+The temperature sensor was wired into the safety circuit. A heat gun was used to heat the temperature sensor. Since the system does not need to cut off at exactly 100 degrees celcius, I assume the temperature spec of the sensor is accurate enough (no temperature measurement taken). A multimeter was used to read the voltage at the output of the circuit.
 
-The pressure sensor was wired into the safety circuit. A bike pump was used to pressurize the sensor. Since the system doent need to cut off at ecactly 15 psi, I assume the pressure spec of the sensor is accurate enough (no pressure measurement taken). A multimeter is used to read the voltage output of the circuit.
+The pressure sensor was wired into the safety circuit. A bike pump was used to pressurize the sensor. Since the system does not need to cut off at ecactly 15 psi, I assume the pressure spec of the sensor is accurate enough (no pressure measurement taken). A multimeter is used to read the voltage output of the circuit.
 
 #### Results
 <img src="images/tempON.jpg" width="200" length="200">
