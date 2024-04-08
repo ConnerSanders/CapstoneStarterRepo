@@ -209,7 +209,14 @@ The temperature sensor was wired into the safety circuit. A heat gun was used to
 The pressure sensor was wired into the safety circuit. A bike pump was used to pressurize the sensor. Since the system doent need to cut off at ecactly 15 psi, I assume the pressure spec of the sensor is accurate enough (no pressure measurement taken). A multimeter is used to read the voltage output of the circuit.
 
 #### Results
+<img src="images/tempON.jpg" width="200" length="200">
+<img src="images/tempOFF.jpg" width="200" length="200">
+
 The voltage output of the circuit drops to 0V after some time of heating the temperature sensor.
+
+<img src="images/pressureON.jpg" width="200" length="200">
+<img src="images/pressureOFF.jpg" width="200" length="200">
+
 The voltage output of the circuit drops to 0V after pressurizing the sensor.
 
 #### Conclusion
