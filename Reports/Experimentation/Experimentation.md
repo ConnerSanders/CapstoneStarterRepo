@@ -191,7 +191,7 @@ This constraint was not traditionally tested but was met.
 ### Constraint 13 - Shall contain an emergency stop button
 
 #### Experimental Design
-When the emergency stop button is pressed, the power to the pulse inverter must be cut off. Output voltage of the esop button is measured using a multimeter.
+When the emergency stop button is pressed, the power to the pulse inverter must be cut off. Output voltage of the estop button is measured using a multimeter.
 
 #### Results
 
