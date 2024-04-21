@@ -26,3 +26,4 @@ Create a subsection addressing each of the above questions in your section of th
 - Working in this sort of team was very beneficial for myself and learning how to cooperate smoothly with others. I believe everyomne had a common goal and everyone got along well.
 - I enjoyed how Jesse revered to us as engineers and it really felt like I was given a project just like how it will be in my future endeavors.
 - For those future students, try to really soak in the experience and don't treat it like a normal college project, consider it like a job.
+- The biggest skills I acquired was simply working with a team and how to manage meeting outside class time. Also learning how to properly time management with this big project.
