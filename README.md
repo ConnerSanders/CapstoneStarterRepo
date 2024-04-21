@@ -14,6 +14,8 @@ While we did hookup a pulse inverter to the cell, there many issues with the pul
 
 
 ## Project Demonstration & Images
+[Video Demonstration](https://www.youtube.com/watch?v=DhT7RktQMQU)
+
 
 Give a link to a video of the project being demonstrated. The video should be hosted on the capstone YouTube.
 
@@ -70,7 +72,7 @@ All documentation is included in the above folder. Folders for the files includi
 
 Documentation includes all schematics, images, models, and designs used in the project. 
 
-The [Signoffs](/Documentation/Signoffs) folder houses all approved detail designs. These designs are for each subsystem and show all constraints. The signoffs should convince the reader that all constraints are met as well as link to all other relevant documentation in their respective folders. These signoffs should also link any relevant software.
+Theignoff [Signoffs](/Documentation/Ss) folder houses all approved detail designs. These designs are for each subsystem and show all constraints. The signoffs should convince the reader that all constraints are met as well as link to all other relevant documentation in their respective folders. These signoffs should also link any relevant software.
 
 The [Meeting Minutes](/Documentation/Meeting%20Minutes) folder contains dated minutes for all team meetings. This allows the reader to analyze current and previous progress in a time-based manner. 
 
