@@ -16,6 +16,8 @@ While we did hookup a pulse inverter to the cell, there many issues with the pul
 ## Project Demonstration & Images
 [Video Demonstration](https://www.youtube.com/watch?v=DhT7RktQMQU)
 <img src="Documentation/Images/Front_Page/Gas_production.PNG" width="150" length="300">
+<img src="Documentation/Images/Front_Page/Flame.PNG" width="150" length="300">
+<img src="Documentation/Images/Front_Page/Explosion.PNG" width="150" length="300">
 
 
 Give a link to a video of the project being demonstrated. The video should be hosted on the capstone YouTube.
