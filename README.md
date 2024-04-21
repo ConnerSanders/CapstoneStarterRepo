@@ -58,7 +58,7 @@ The [Conceptual Design and Planning](/Reports/Conceptual%20Design/Conceptual_Des
 
 The [Experimentation](/Reports/Experimentation/Experimentation.md) report shows the experimentation done by the team to verify the project's constraints and measures of success.
 
-The [Poster](/Reports/Poster) is a visual summary of the project that is presented at the Senior Design Expo.
+The [Poster](/Reports/Poster/Capstone_Final_Presentation_Poster.pdf) is a visual summary of the project that is presented at the Senior Design Expo.
 
 The [Final Presentation](/Reports/Final%20Presentation/Final%20Presentation.pdf) includes the final report/presentation done by the team to summarize the project's progress.
 
