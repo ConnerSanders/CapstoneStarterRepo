@@ -8,17 +8,13 @@
 - I would emphasize the importance of getting everything done as efficiently (early and effectively) as possible. I would also emphasize the importance of initiative and honest communication.
 - I learned how to approach design problems and take advantage of online research. I also improved practical skills related to lab work.
 
-
-
-
-
 ## Matthew Beausoleil
-- The conceptual side of the project was easier as it just theory, and its easier for everyone to collabaorate. WHen it came to design it got pretty crowded when more than three people had there hands in the box.
-- For me, I was not anticapting the signal from the water sensor to be inverted and the lack of documentation on the interanl circuit, so there had to be some testing to see how the senor work then re-design a circuit to work with the sensor.
+- The conceptual side of the project was easier as it is just theory, and it's easier for everyone to collabaorate. When it came to design, it got pretty crowded when more than three people had their hands in the box.
+- For me, I was not anticipating the signal from the water sensor being inverted and the lack of documentation on the interanl circuit, so there had to be some testing to see how the sensor work then re-design a circuit to work with the sensor.
 - I have a terrible problem with not delegating work enough, and where I was better than past projects. I need to better as it left me pretty burnt out towards the end.
 - I stand by our best practice of KISS "Keep it stupid simple". There is no need to make things overly complicated if it doesn't need to be.
-- Try to front load capstone, so when the final semester comes it's not a wall of asssignments. 
-- I feel like I can say I reaqquired my knowledge of Electronic design as I had to stare at several analog circuit and understand what was happening when it broke.
+- Try to front load capstone so that when the final semester comes it's not a wall of asssignments. 
+- I feel like I can say I reaquired my knowledge of Electronic design as I had to stare at several analog circuit and understand what was happening when they broke.
 
 ## Jacob Cooper
 - I had a great time working on the project and I strongly feel we worked on this efficiently and as a team
