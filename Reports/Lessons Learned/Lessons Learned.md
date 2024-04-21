@@ -35,10 +35,10 @@
 
 ## Conner Sanders
 
--I thought the project went well. Technically my system was simple, and I had minimal issues with designing and building. Organizationally, I think our team did a good job with divison of labor and time management. 
--Towards the end, components started failing or not acting as expected. This delayyed the final build of thew project and added some stress. 
--Putting more effort into building and testing earlier in the semester would relive alot of stress during crunch time.
--A "best practice" that I identified was consulting the team as a whole when I encoundered any issue. It always helps to get different opinions and ideas when finding solutions.
--I would tell future students to do as mutch capstone work as possible, as soon as possible. Deadlines are not hard to meet, so long as you are actively working to meet them.
--Working with a larger team was both a challenge and a blessing in this scenario. It is sometimes hard to manage division of labor and manage time with a team of this size. I think I got better at understanding what needs to be done, and how I can help meet deadlines, in a group setting.
+- I thought the project went well. Technically my system was simple, and I had minimal issues with designing and building. Organizationally, I think our team did a good job with divison of labor and time management. 
+- Towards the end, components started failing or not acting as expected. This delayyed the final build of thew project and added some stress. 
+- Putting more effort into building and testing earlier in the semester would relive alot of stress during crunch time.
+- A "best practice" that I identified was consulting the team as a whole when I encoundered any issue. It always helps to get different opinions and ideas when finding solutions.
+- I would tell future students to do as mutch capstone work as possible, as soon as possible. Deadlines are not hard to meet, so long as you are actively working to meet them.
+- Working with a larger team was both a challenge and a blessing in this scenario. It is sometimes hard to manage division of labor and manage time with a team of this size. I think I got better at understanding what needs to be done, and how I can help meet deadlines, in a group setting.
 
