@@ -10,7 +10,7 @@ The system will be divided into multiple systems that each have several expectat
 
 ## Salient Outcomes
 
-While we did hookup a pulse inverter to the cell, there many issues with the pulse inverter tied to the resistance. The group was able to adjust with alot of unknowns such as the pulse inverter's resistance and adapted as best as they could. Another Big outcome was the fact we had gas production from a pulsed current, as it is not common practice and with more time we could figure the best parameter of the pulse inverter to boost gas production.
+While we did connect a pulse inverter to the cell, there were many issues with the pulse inverter tied to the resistance. The group was able to adjust to a lot of unknowns such as the pulse inverter's resistance and adapted as best as they could. Another Big outcome was the fact we had gas production from a pulsed current, as it is not common practice and with more time we could figure the best parameter of the pulse inverter to boost gas production.
 
 
 ## Project Demonstration & Images
