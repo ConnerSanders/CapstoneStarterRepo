@@ -56,13 +56,13 @@ The [Project Proposal](/Reports/Proposal/Project_Proposal-V2.pdf) report address
 
 The [Conceptual Design and Planning](/Reports/Conceptual%20Design/Conceptual_DesignV2.pdf) report provides all specifications and constraints the project must follow. This includes standards and regulations that must be followed.
 
-The [Experimentation](/Reports/Experimentation) report shows [finish later]
+The [Experimentation](/Reports/Experimentation/Experimentation.md) report shows [finish later]
 
 The [Poster](/Reports/Poster) is [finish later]
 
 The [Final Report](/Reports/Final%20Report) includes [finish later]
 
-The [Lessons Learned](/Reports/Lessons%20Learned/Lessons%20Learned.md) files show all lessons learned throughout the process. It includes lessons in team communication, project management, and technical knowledge.
+The [Lessons Learned]([/Reports/Lessons%20Learned/Lessons%20Learned.md]) files show all lessons learned throughout the process. It includes lessons in team communication, project management, and technical knowledge.
 
 ### [Documentation](/Documentation)
 
