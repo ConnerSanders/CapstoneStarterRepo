@@ -19,12 +19,6 @@ While we did hookup a pulse inverter to the cell, there many issues with the pul
 <img src="Documentation/Images/Front_Page/Flame.PNG" width="300" length="600">
 <img src="Documentation/Images/Front_Page/Explosion.PNG" width="300" length="200">
 
-
-Give a link to a video of the project being demonstrated. The video should be hosted on the capstone YouTube.
-
-Below the video link show some well-taken, appropriately sized images of the project.
-
-
 ## About Us
 
 ### Team
