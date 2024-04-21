@@ -34,7 +34,7 @@ Below the video link show some well-taken, appropriately sized images of the pro
 
 **Austin Jerrolds** is a Computer Engineering student at Tennessee Technological University. Austin's interests are Embedded Systems, Digital System Design, and software development. Austin's main focus in the project is the controller system which is responsible for the efficiency computations to measure the project's success. 
 
-**Conner Sanders** is a Computer Engineering student at Tennessee Technological University. Conner's intrests are embedded and Digital Systems. Conner also has some experience with controls and pneumatics. Conner's main focus in the project is the safety system, which cuts off power in the event that the electrolyzer becomes unsafe.
+**Conner Sanders** is a Computer Engineering student at Tennessee Technological University. Conner's interests are embedded and Digital Systems. Conner also has some experience with controls and pneumatics. Conner's main focus in the project is the safety system, which cuts off power if the electrolyzer becomes unsafe.
 
 ### Faculty Supervisor
 [Charles Van Neste, Phd](https://www.tntech.edu/directory/engineering/faculty/charles-van-neste.php) is an Assistant Professor at Tennessee Tech University. He received his Bachelor's, Master's, and Doctorate at Tennessee Technological University. 
@@ -56,13 +56,13 @@ The [Project Proposal](/Reports/Proposal/Project_Proposal-V2.pdf) report address
 
 The [Conceptual Design and Planning](/Reports/Conceptual%20Design/Conceptual_DesignV2.pdf) report provides all specifications and constraints the project must follow. This includes standards and regulations that must be followed.
 
-The [Experimentation](/Reports/Experimentation/Experimentation.md) report shows [finish later]
+The [Experimentation](/Reports/Experimentation/Experimentation.md) report shows the experimentation done by the team to verify the project's constraints and measures of success.
 
-The [Poster](/Reports/Poster) is [finish later]
+The [Poster](/Reports/Poster) is a visual summary of the project that is presented at the Senior Design Expo.
 
-The [Final Report](/Reports/Final%20Report) includes [finish later]
+The [Final Presentation](/Reports/Final%20Presentation/Final%20Presentation.pdf) includes the final report/presentation done by the team to summarize the project's progress.
 
-The [Lessons Learned]([/Reports/Lessons%20Learned/Lessons%20Learned.md]) files show all lessons learned throughout the process. It includes lessons in team communication, project management, and technical knowledge.
+The [Lessons Learned](/Reports/Lessons%20Learned/Lessons%20Learned.md) files show all lessons learned throughout the process. It includes lessons in team communication, project management, and technical knowledge.
 
 ### [Documentation](/Documentation)
 
@@ -70,10 +70,10 @@ All documentation is included in the above folder. Folders for the files includi
 
 Documentation includes all schematics, images, models, and designs used in the project. 
 
-The [Signoffs](/Documentation/Signoffs) folder houses all approved detail designs. These designs are for each subsystem and show all constraints. The signoffs should convince the reader that all constraints are met as well as link to all other relevant documentation in their respective folders. These signoffs should also link any software which is relevant.
+The [Signoffs](/Documentation/Signoffs) folder houses all approved detail designs. These designs are for each subsystem and show all constraints. The signoffs should convince the reader that all constraints are met as well as link to all other relevant documentation in their respective folders. These signoffs should also link any relevant software.
 
 The [Meeting Minutes](/Documentation/Meeting%20Minutes) folder contains dated minutes for all team meetings. This allows the reader to analyze current and previous progress in a time-based manner. 
 
 
 ### Software
-All software will be located in this directory. For each specific problem or system, a folder will be created that contains all relevant code along with a readme that explains the installation, compiling, execution of the code.
+All software will be located in this directory. For each specific problem or system, a folder will be created that contains all relevant code along with a readme that explains the installation, compiling, and execution of the code.
