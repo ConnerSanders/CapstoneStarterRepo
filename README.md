@@ -60,7 +60,7 @@ The [Experimentation](/Reports/Experimentation/Experimentation.md) report shows 
 
 The [Poster](/Reports/Poster/Capstone_Final_Presentation_Poster.pdf) is a visual summary of the project that is presented at the Senior Design Expo.
 
-The [Final Presentation](/Reports/Final%20Presentation/Final%20Presentation.pdf) includes the final report/presentation done by the team to summarize the project's progress.
+The [Final Presentation](/Reports/Final%20Presentation/Capstone%20Final%20Presentation.pdf) includes the final report/presentation done by the team to summarize the project's progress.
 
 The [Lessons Learned](/Reports/Lessons%20Learned/Lessons%20Learned.md) files show all lessons learned throughout the process. It includes lessons in team communication, project management, and technical knowledge.
 
